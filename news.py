@@ -1,11 +1,10 @@
 import asyncio
 
 from flask import json
+from pygments.lexers import data
 
-from helper import aggregator, getBlockchainNews
+from helper import getBlockchainNews
 
 if __name__ == '__main__':
-    data = asyncio.run(aggregator())
     blockchainNews = asyncio.run(getBlockchainNews())
-
-    print(json.dumps(data))
+    print(json.dumps(blockchainNews, indent=2))
