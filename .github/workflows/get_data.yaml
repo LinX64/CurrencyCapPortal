@@ -1,8 +1,9 @@
 name: Get Data
 
 on:
-  schedule:
-    - cron: '*/20 * * * *'
+  pull_request:
+    branches:
+      - master
 
 jobs:
   update-currencies:
@@ -22,7 +23,13 @@ jobs:
 
       - name: Update Currencies Data
         run: |
-          python run.py > currencies.json || { sleep 10 && python run.py > currencies.json; }
+          python run.py > currencies_temp.json
+          if jq -e . >/dev/null 2>&1 < currencies_temp.json; then
+            mv currencies_temp.json currencies.json
+          else
+            echo "Invalid JSON. Keeping previous data."
+            rm currencies_temp.json
+          fi
           cat currencies.json
 
       - name: Update News Data
