@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 from APIs import APIs
 
 load_dotenv()
+last_successful_data = None
 
 
 # Asynchronous function to fetch a single URL
@@ -62,28 +63,29 @@ def combine_data(results):
 
 
 async def aggregator():
+    global last_successful_data
+
     async with ClientSession() as session:
         urls = [APIs.COINCAP_MARKETS, APIs.COINCAP_RATES, APIs.CRYPTO_Rates]
         tasks = [fetch(url, session) for url in urls]
         results = await asyncio.gather(*tasks)
 
         for result in results:
-            if isinstance(result, dict):
-                if result.get('error'):
-                    return result, result.get('status_code')
-            elif isinstance(result, list):
-                continue
-            else:
-                return {"error": f"Unexpected data type: {type(result)}"}, 400
+            if isinstance(result, dict) and 'error' in result:
+                print(f"Encountered error: {result['error']}")
+                if last_successful_data:
+                    print("Using last successful data")
+                    return last_successful_data
+                else:
+                    return result, result['status_code']
 
         bonbast_result_str = await run_bonbast()
         bonbast_result_json = json.loads(bonbast_result_str)
         results.append(bonbast_result_json)
 
         combined_data = combine_data(results)
-        data = combined_data
-
-        return data
+        last_successful_data = combined_data
+        return combined_data
 
 
 async def getBlockchainNews():

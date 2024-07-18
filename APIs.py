@@ -1,4 +1,3 @@
-import os
 from enum import Enum
 
 
@@ -20,17 +19,6 @@ class APIs(Enum):
         'title': 'Bonbast Currency',
         'url': 'bonbast export'
     }
-
-    # TODO: fix this
-    # news_api_key = os.getenv('NEWS_API_KEY')
-    # if not news_api_key:
-    #     raise ValueError("NEWS_API_KEY environment variable is not set")
-    #
-    # url = f'https://newsapi.org/v2/everything?q=blockchain&apiKey={news_api_key}'
-    # NEWS_API = {
-    #     'title': 'Blockchain News',
-    #     'url': url
-    # }
 
     @property
     def title(self):
