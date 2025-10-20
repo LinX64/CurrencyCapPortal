@@ -2,8 +2,9 @@
 """
 Prepare API files for GitHub Pages deployment.
 
-Creates 3 simple endpoints:
-- /latest.json - Currency rates
+Creates 4 simple endpoints:
+- /latest.json - Currency rates (Hansha with Bonbast fallback)
+- /history.json - Currency history (Hansha with Bonbast fallback)
 - /crypto.json - Cryptocurrency data
 - /news.json - Blockchain news
 """
@@ -35,9 +36,25 @@ def main():
     # Load source data
     currencies = load_json('data/currencies.json')
 
-    # Create /latest.json - Currency rates
+    # Create /latest.json - Currency rates (use Hansha with Bonbast fallback)
     print("   ✓ Creating /latest.json")
-    save_json(currencies.get('bonbast', []), api_dir / 'latest.json')
+    hansha_rates = currencies.get('hansha_rates')
+    if hansha_rates and hansha_rates is not None:
+        save_json(hansha_rates, api_dir / 'latest.json')
+        print("      Using Hansha data")
+    else:
+        save_json(currencies.get('bonbast', []), api_dir / 'latest.json')
+        print("      Fallback to Bonbast data")
+
+    # Create /history.json - Currency history (use Hansha with Bonbast fallback)
+    print("   ✓ Creating /history.json")
+    hansha_history = currencies.get('hansha_history')
+    if hansha_history and hansha_history is not None:
+        save_json(hansha_history, api_dir / 'history.json')
+        print("      Using Hansha history data")
+    else:
+        save_json(currencies.get('bonbast', []), api_dir / 'history.json')
+        print("      Fallback to Bonbast data")
 
     # Create /crypto.json - Cryptocurrency data
     print("   ✓ Creating /crypto.json")
@@ -153,8 +170,14 @@ def main():
 
             <div class="endpoint">
                 <h3>GET /latest.json</h3>
-                <p>Iranian currency exchange rates</p>
+                <p>Iranian currency exchange rates (Hansha with Bonbast fallback)</p>
                 <div class="url">https://linx64.github.io/CurrencyCapPortal/latest.json</div>
+            </div>
+
+            <div class="endpoint">
+                <h3>GET /history.json</h3>
+                <p>Currency exchange rate history (Hansha with Bonbast fallback)</p>
+                <div class="url">https://linx64.github.io/CurrencyCapPortal/history.json</div>
             </div>
 
             <div class="endpoint">

@@ -106,12 +106,13 @@ def load_cache() -> Optional[Dict[str, Any]]:
         return None
 
 
-def combine_data(hansha_rates, cryptos, bonbast, sources_status):
+def combine_data(hansha_rates, cryptos, bonbast, hansha_history, sources_status):
     """Combine data from all sources with status tracking"""
     data = {
         'sources_status': sources_status,
         'last_updated': datetime.now().isoformat(),
         'hansha_rates': hansha_rates,
+        'hansha_history': hansha_history,
         'crypto': cryptos,
         'bonbast': bonbast
     }
@@ -127,11 +128,13 @@ async def aggregator():
     """
     sources_status = {
         'hansha': {'status': 'unknown', 'error': None},
+        'hansha_history': {'status': 'unknown', 'error': None},
         'crypto': {'status': 'unknown', 'error': None},
         'bonbast': {'status': 'unknown', 'error': None}
     }
 
     hansha_rates = None
+    hansha_history = None
     cryptos = []
     bonbast = []
 
@@ -150,6 +153,18 @@ async def aggregator():
                 hansha_rates = hansha_result
                 sources_status['hansha']['status'] = 'success'
                 print("Hansha rates fetched successfully")
+
+            # Fetch Hansha history
+            print("Fetching Hansha history...")
+            hansha_history_result = await fetch(APIs.HANSHA_HISTORY.url, session)
+            if isinstance(hansha_history_result, dict) and hansha_history_result.get('error'):
+                sources_status['hansha_history']['status'] = 'failed'
+                sources_status['hansha_history']['error'] = hansha_history_result.get('error')
+                print(f"Hansha history failed: {hansha_history_result.get('error')}")
+            else:
+                hansha_history = hansha_history_result
+                sources_status['hansha_history']['status'] = 'success'
+                print("Hansha history fetched successfully")
 
             # Fetch Crypto rates
             print("Fetching Crypto rates...")
@@ -205,7 +220,7 @@ async def aggregator():
                 }, 503
 
         # Combine available data (even if partial)
-        combined_data = combine_data(hansha_rates, cryptos, bonbast, sources_status)
+        combined_data = combine_data(hansha_rates, cryptos, bonbast, hansha_history, sources_status)
 
         # Save to cache for future use
         save_cache(combined_data)
