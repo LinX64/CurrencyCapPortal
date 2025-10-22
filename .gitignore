@@ -24,3 +24,14 @@ data/
 
 # Environment variables
 .env
+
+# ML Models and predictions (large files)
+models/
+*.h5
+*.keras
+*.pkl
+api/predictions/
+
+# ML logs
+logs/
+*.log

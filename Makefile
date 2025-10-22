@@ -5,6 +5,7 @@ help:
 	@echo ""
 	@echo "Available commands:"
 	@echo "  make install        - Install all dependencies including test dependencies"
+	@echo "  make install-ml     - Install ML dependencies"
 	@echo "  make test          - Run all tests"
 	@echo "  make test-verbose  - Run tests with verbose output"
 	@echo "  make test-fast     - Run tests without slow tests"
@@ -13,6 +14,14 @@ help:
 	@echo "  make security      - Run security checks"
 	@echo "  make clean         - Clean up cache and temporary files"
 	@echo "  make update-apis   - Update all API data"
+	@echo ""
+	@echo "ML Commands:"
+	@echo "  make train-model    - Train ML model for a currency (CURRENCY=usd)"
+	@echo "  make train-all      - Train models for all currencies"
+	@echo "  make predict        - Generate predictions (CURRENCY=usd HOURS=24)"
+	@echo "  make predict-all    - Generate predictions for all models"
+	@echo "  make api-server     - Start REST API server"
+	@echo "  make test-ml        - Run ML tests only"
 
 install:
 	pip install --upgrade pip
@@ -82,3 +91,35 @@ test-generate:
 
 test-update-apis:
 	pytest tests/test_update_apis.py -v
+
+install-ml:
+	pip install -r ml_requirements.txt
+
+train-model:
+	@if [ -z "$(CURRENCY)" ]; then \
+		echo "Error: CURRENCY not specified. Usage: make train-model CURRENCY=usd"; \
+		exit 1; \
+	fi
+	python train_model.py --currency $(CURRENCY) --epochs $(or $(EPOCHS),100)
+
+train-all:
+	python train_model.py --all --epochs $(or $(EPOCHS),100)
+
+predict:
+	@if [ -z "$(CURRENCY)" ]; then \
+		echo "Error: CURRENCY not specified. Usage: make predict CURRENCY=usd HOURS=24"; \
+		exit 1; \
+	fi
+	python predict_prices.py --currency $(CURRENCY) --hours $(or $(HOURS),24)
+
+predict-all:
+	python predict_prices.py --all --hours $(or $(HOURS),24)
+
+api-server:
+	python api_server.py
+
+api-server-prod:
+	gunicorn -w 4 -b 0.0.0.0:5000 api_server:app
+
+test-ml:
+	pytest tests/test_ml_predictor.py tests/test_api_server.py -v
