@@ -52,10 +52,19 @@ class DataProcessor:
         # Extract price history
         records = []
         for price_point in currency_data['ps']:
+            # Handle missing buy price in older data
+            if 'bp' in price_point:
+                buy_price = float(price_point['bp'])
+                sell_price = float(price_point['sp'])
+            else:
+                # Estimate buy price from sell price using typical spread (0.2%)
+                sell_price = float(price_point['sp'])
+                buy_price = sell_price * 0.998  # Assume 0.2% spread
+
             records.append({
                 'timestamp': pd.to_datetime(price_point['ts']),
-                'buy_price': float(price_point['bp']),
-                'sell_price': float(price_point['sp'])
+                'buy_price': buy_price,
+                'sell_price': sell_price
             })
 
         df = pd.DataFrame(records)
