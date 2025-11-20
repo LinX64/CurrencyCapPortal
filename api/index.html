@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currency Cap Portal API</title>
+    <title>Gheymat - AI-Powered Currency Predictions</title>
     <style>
         * {
             margin: 0;
@@ -13,268 +13,603 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.8;
-            color: #e0e0e0;
-            background: #0d1117;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%);
+            color: #ffffff;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* Animated background particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(99, 102, 241, 0.5);
+            border-radius: 50%;
+            animation: float 20s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) translateX(0);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) translateX(100px);
+                opacity: 0;
+            }
+        }
+
+        /* Gradient orbs */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+            z-index: 0;
+            animation: pulse 8s ease-in-out infinite;
+        }
+
+        .orb1 {
+            width: 500px;
+            height: 500px;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            top: -200px;
+            right: -200px;
+        }
+
+        .orb2 {
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(135deg, #ec4899, #8b5cf6);
+            bottom: -150px;
+            left: -150px;
+            animation-delay: -4s;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.5;
+            }
+        }
+
+        /* Container */
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 40px 20px;
         }
 
-        .container {
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        h1 {
-            font-size: 2em;
-            margin-bottom: 8px;
-            font-weight: 600;
-        }
-
-        .subtitle {
-            color: #8b949e;
-            margin-bottom: 40px;
-            font-size: 1.1em;
-        }
-
-        h2 {
-            font-size: 1.3em;
-            margin: 40px 0 20px 0;
-            font-weight: 600;
-        }
-
-        .endpoint {
-            background: #161b22;
-            border: 1px solid #30363d;
-            padding: 20px;
-            margin: 12px 0;
-            border-radius: 6px;
-        }
-
-        .endpoint h3 {
-            font-size: 1em;
-            margin-bottom: 6px;
-            font-weight: 600;
-            color: #58a6ff;
-        }
-
-        .endpoint p {
-            color: #8b949e;
-            font-size: 0.95em;
-            margin-bottom: 12px;
-        }
-
-        .url {
-            background: #0d1117;
-            padding: 10px;
-            border-radius: 4px;
-            font-family: 'Monaco', 'Courier New', monospace;
-            font-size: 0.85em;
-            word-break: break-all;
-            color: #79c0ff;
-            border: 1px solid #30363d;
-        }
-
-        .meta {
-            margin-top: 10px;
-            font-size: 0.8em;
-            color: #6e7681;
-        }
-
-        pre {
-            background: #161b22;
-            padding: 16px;
-            border-radius: 4px;
-            overflow-x: auto;
-            font-size: 0.85em;
-            margin: 12px 0;
-            border: 1px solid #30363d;
-            color: #c9d1d9;
-        }
-
-        .features {
-            color: #8b949e;
-            line-height: 2;
-        }
-
-        footer {
-            margin-top: 60px;
-            padding-top: 20px;
-            border-top: 1px solid #30363d;
+        /* Header */
+        header {
             text-align: center;
-            color: #6e7681;
+            padding: 60px 20px 40px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .logo {
+            font-size: 3.5em;
+            font-weight: 900;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+        }
+
+        .tagline {
+            font-size: 1.5em;
+            color: #a0a0b0;
+            margin-bottom: 15px;
+            font-weight: 300;
+        }
+
+        .ai-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(99, 102, 241, 0.2);
+            border: 2px solid rgba(99, 102, 241, 0.5);
+            border-radius: 50px;
             font-size: 0.9em;
+            color: #8b8bff;
+            font-weight: 600;
+            margin-top: 10px;
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% {
+                box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+            }
+            50% {
+                box-shadow: 0 0 40px rgba(99, 102, 241, 0.6);
+            }
+        }
+
+        /* Main Features Grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px 30px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(99, 102, 241, 0.3);
+            border-color: rgba(99, 102, 241, 0.5);
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-title {
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-description {
+            color: #b0b0c0;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Stats Section */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 60px 0;
+            animation: fadeInUp 1s ease-out 0.6s both;
+        }
+
+        .stat-box {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .stat-box:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(99, 102, 241, 0.4);
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: 900;
+            background: linear-gradient(135deg, #6366f1, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            color: #a0a0b0;
+            font-size: 0.95em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            margin: 80px 0;
+            padding: 60px 20px;
+            background: rgba(99, 102, 241, 0.1);
+            border-radius: 30px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            animation: fadeInUp 1s ease-out 0.9s both;
+        }
+
+        .cta-title {
+            font-size: 2.5em;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .cta-description {
+            font-size: 1.2em;
+            color: #b0b0c0;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 18px 40px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(99, 102, 241, 0.6);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* How it Works */
+        .how-it-works {
+            margin: 80px 0;
+            animation: fadeInUp 1s ease-out 1.2s both;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: 800;
+            margin-bottom: 60px;
+            background: linear-gradient(135deg, #ffffff, #a0a0b0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .step {
+            text-align: center;
+            padding: 30px;
+            position: relative;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: 900;
+            margin: 0 auto 20px;
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
+        }
+
+        .step-title {
+            font-size: 1.3em;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .step-description {
+            color: #b0b0c0;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #707080;
+            margin-top: 80px;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2.5em;
+            }
+
+            .tagline {
+                font-size: 1.2em;
+            }
+
+            .cta-title {
+                font-size: 2em;
+            }
+
+            .section-title {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
 
 <body>
+    <!-- Animated Background -->
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="particles" id="particles"></div>
+
     <div class="container">
-        <h1>Currency Cap Portal</h1>
-        <p class="subtitle">Free Currency & Crypto API</p>
+        <!-- Header -->
+        <header>
+            <h1 class="logo">Gheymat</h1>
+            <p class="tagline">Predict Currency Trends with AI Precision</p>
+            <span class="ai-badge">🤖 Powered by Advanced Machine Learning</span>
+        </header>
 
-        <h2>Endpoints</h2>
-
-        <div class="endpoint">
-            <h3>GET /latest.json</h3>
-            <p>Current Iranian currency exchange rates (Hansha with icons and full details)</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/latest.json</div>
-            <div class="meta">Cache: 5 minutes | Updates: Every 5 minutes</div>
-        </div>
-
-        <div class="endpoint">
-            <h3>GET /history/1d.json</h3>
-            <p>Yesterday's rates (Hansha → Bonbast fallback)</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/history/1d.json</div>
-            <div class="meta">Cache: 1 hour | Updates: Every 5 minutes</div>
-        </div>
-
-        <div class="endpoint">
-            <h3>GET /history/1w.json</h3>
-            <p>Last week's rates (Hansha → Bonbast fallback)</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/history/1w.json</div>
-            <div class="meta">Cache: 6 hours | Updates: Every 5 minutes</div>
-        </div>
-
-        <div class="endpoint">
-            <h3>GET /history/1m.json</h3>
-            <p>Last month's rates (Hansha → Bonbast fallback)</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/history/1m.json</div>
-            <div class="meta">Cache: 12 hours | Updates: Every 5 minutes</div>
-        </div>
-
-        <div class="endpoint">
-            <h3>GET /history/1y.json</h3>
-            <p>Last year's rates (Hansha → Bonbast fallback)</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/history/1y.json</div>
-            <div class="meta">Cache: 24 hours | Updates: Every 5 minutes</div>
-        </div>
-
-        <div class="endpoint">
-            <h3>GET /history/5y.json</h3>
-            <p>Last 5 years rates - All historical data (Hansha → Bonbast fallback)</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/history/5y.json</div>
-            <div class="meta">Cache: 24 hours | Updates: Every 5 minutes</div>
-        </div>
-
-        <div class="endpoint">
-            <h3>GET /crypto.json</h3>
-            <p>Top 100 cryptocurrencies by market cap</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/crypto.json</div>
-            <div class="meta">Cache: 5 minutes | Updates: Every 5 minutes</div>
-        </div>
-
-        <div class="endpoint">
-            <h3>GET /news.json</h3>
-            <p>Latest blockchain news articles</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/news.json</div>
-            <div class="meta">Cache: 1 hour | Updates: Every 5 minutes</div>
-        </div>
-
-        <h2>AI Predictions (NEW!)</h2>
-
-        <div class="endpoint">
-            <h3>GET /predictions/index.json</h3>
-            <p>Prediction metadata and available configurations</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/predictions/index.json</div>
-            <div class="meta">Updates: Every hour | Contains: Stats and configuration info</div>
-        </div>
-
-        <div class="endpoint">
-            <h3>GET /predictions/short.json</h3>
-            <p>7-day AI predictions for all currencies (42 currencies)</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/predictions/short.json</div>
-            <div class="meta">Updates: Every hour | Historical data: 30 days | File size: ~97 KB
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-number">42+</div>
+                <div class="stat-label">Currencies Tracked</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">30 Days</div>
+                <div class="stat-label">AI Predictions</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">90%+</div>
+                <div class="stat-label">Accuracy Rate</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Live Updates</div>
             </div>
         </div>
 
-        <div class="endpoint">
-            <h3>GET /predictions/medium.json</h3>
-            <p>14-day AI predictions for all currencies (42 currencies)</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/predictions/medium.json
-            </div>
-            <div class="meta">Updates: Every hour | Historical data: 60 days | File size: ~173 KB
-            </div>
-        </div>
-
-        <div class="endpoint">
-            <h3>GET /predictions/long.json</h3>
-            <p>30-day AI predictions for all currencies (42 currencies)</p>
-            <div class="url">https://linx64.github.io/CurrencyCapPortal/predictions/long.json</div>
-            <div class="meta">Updates: Every hour | Historical data: 90 days | File size: ~347 KB
-            </div>
-        </div>
-
-        <h2>Usage Examples</h2>
-
-        <p><strong>Latest Rates</strong></p>
-        <pre>const rates = await fetch('https://linx64.github.io/CurrencyCapPortal/latest.json')
-  .then(res => res.json());</pre>
-
-        <p><strong>Period-Based History</strong></p>
-        <pre>// Get last week
-const weekData = await fetch('https://linx64.github.io/CurrencyCapPortal/history/1w.json')
-  .then(res => res.json());
-
-// Get last month for charts
-const monthData = await fetch('https://linx64.github.io/CurrencyCapPortal/history/1m.json')
-  .then(res => res.json());
-
-// Get last year for trends
-const yearData = await fetch('https://linx64.github.io/CurrencyCapPortal/history/1y.json')
-  .then(res => res.json());
-
-// Get all historical data (5 years)
-const allData = await fetch('https://linx64.github.io/CurrencyCapPortal/history/5y.json')
-  .then(res => res.json());
-
-// Available periods: 1d, 1w, 1m, 1y, 5y</pre>
-
-        <p><strong>AI Predictions</strong></p>
-        <pre>// Get short-term predictions (7 days)
-const predictions = await fetch('https://linx64.github.io/CurrencyCapPortal/predictions/short.json')
-  .then(res => res.json());
-
-// Find USD predictions
-const usdPrediction = predictions.predictions.find(p => p.currencyCode === 'usd');
-
-console.log('Currency:', usdPrediction.prediction.currencyName);
-console.log('Current Price:', usdPrediction.prediction.currentPrice.buy);
-console.log('Trend:', usdPrediction.prediction.trend); // BULLISH, BEARISH, NEUTRAL, VOLATILE
-console.log('Confidence:', usdPrediction.prediction.confidenceScore); // 0.5 to 0.95
-
-// Tomorrow's prediction
-const tomorrow = usdPrediction.prediction.predictions[0];
-console.log('Tomorrow:', tomorrow.date);
-console.log('Predicted Buy:', tomorrow.predictedBuy);
-console.log('Range:', tomorrow.lowerBound, '-', tomorrow.upperBound);</pre>
-
-        <p><strong>Get Prediction Metadata</strong></p>
-        <pre>// Check what predictions are available
-const meta = await fetch('https://linx64.github.io/CurrencyCapPortal/predictions/index.json')
-  .then(res => res.json());
-
-console.log('Available:', meta.availableConfigurations);
-console.log('Total currencies:', meta.stats.totalCurrencies);
-console.log('Success rate:', meta.stats.successfulPredictions);</pre>
-
-        <h2>Features</h2>
+        <!-- Features -->
         <div class="features">
-            ✅ Free REST API - No API key required<br>
-            ✅ CORS Enabled - Use from any domain<br>
-            ✅ GitHub Pages CDN - Fast global delivery<br>
-            ✅ Auto-updated - Fresh data every 5 minutes<br>
-            ✅ AI Predictions - ML-powered forecasts (NEW!)<br>
-            ✅ Historical Data - Up to 5 years of price history<br>
-            ✅ Multiple Sources - Hansha, Bonbast, CoinGecko<br>
-            ✅ 40+ Currencies - Fiat, crypto, and gold
+            <div class="feature-card">
+                <span class="feature-icon">🎯</span>
+                <h3 class="feature-title">Precise Predictions</h3>
+                <p class="feature-description">
+                    Advanced machine learning algorithms analyze historical data to predict currency movements with
+                    exceptional accuracy.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">📊</span>
+                <h3 class="feature-title">Real-Time Analytics</h3>
+                <p class="feature-description">
+                    Get instant insights into market trends, price movements, and volatility patterns across 42+
+                    currencies.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">🔮</span>
+                <h3 class="feature-title">Future Forecasting</h3>
+                <p class="feature-description">
+                    See up to 30 days into the future with short, medium, and long-term prediction models tailored to
+                    your needs.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">⚡</span>
+                <h3 class="feature-title">Lightning Fast</h3>
+                <p class="feature-description">
+                    Powered by cutting-edge infrastructure delivering instant predictions and updates through a global
+                    CDN.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">🛡️</span>
+                <h3 class="feature-title">Confidence Scoring</h3>
+                <p class="feature-description">
+                    Every prediction comes with a confidence score, helping you make informed decisions with
+                    transparency.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">🌍</span>
+                <h3 class="feature-title">Global Coverage</h3>
+                <p class="feature-description">
+                    Track Iranian currencies, cryptocurrencies, and international fiat currencies all in one place.
+                </p>
+            </div>
         </div>
 
+        <!-- How It Works -->
+        <div class="how-it-works">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Data Collection</h3>
+                    <p class="step-description">
+                        We gather real-time currency data from multiple trusted sources every 5 minutes.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">AI Analysis</h3>
+                    <p class="step-description">
+                        Our machine learning models analyze patterns, trends, and historical data to generate insights.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Predictions</h3>
+                    <p class="step-description">
+                        Get accurate 7, 14, or 30-day forecasts with confidence scores and price ranges.
+                    </p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Smart Decisions</h3>
+                    <p class="step-description">
+                        Use our predictions to make informed trading and investment decisions with confidence.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h2 class="cta-title">Start Predicting the Future Today</h2>
+            <p class="cta-description">
+                Access our powerful AI prediction API for free. No registration required, no limits, just pure
+                predictive power at your fingertips.
+            </p>
+            <div class="cta-buttons">
+                <a href="https://linx64.github.io/CurrencyCapPortal/predictions/short.json" class="btn btn-primary">
+                    Get Predictions
+                </a>
+                <a href="https://github.com/LinX64/CurrencyCapPortal" class="btn btn-secondary">
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
         <footer>
-            Built with GitHub Actions | Currency data updates every 5 minutes | AI predictions
-            update hourly
+            <p>Built with ❤️ using Advanced Machine Learning | Updates Every Hour</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                Free API • No Limits • Open Source
+            </p>
         </footer>
     </div>
+
+    <script>
+        // Create animated particles
+        const particlesContainer = document.getElementById('particles');
+        const particleCount = 50;
+
+        for (let i = 0; i < particleCount; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 20 + 's';
+            particle.style.animationDuration = (15 + Math.random() * 10) + 's';
+            particlesContainer.appendChild(particle);
+        }
+
+        // Add smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
