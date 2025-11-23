@@ -1,0 +1,6056 @@
+{
+  "generatedAt": "2025-11-23T08:26:09.673549Z",
+  "daysAhead": 14,
+  "historicalDays": 60,
+  "totalCurrencies": 42,
+  "predictions": [
+    {
+      "currencyCode": "usd",
+      "prediction": {
+        "currencyCode": "usd",
+        "currencyName": "US Dollar",
+        "currentPrice": {
+          "buy": 112450,
+          "sell": 112590,
+          "timestamp": "2025-11-23T08:26:09.570419Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769570,
+            "predictedBuy": 112008,
+            "predictedSell": 112148,
+            "confidence": 0.696,
+            "lowerBound": 94797,
+            "upperBound": 129219
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169570,
+            "predictedBuy": 111436,
+            "predictedSell": 111575,
+            "confidence": 0.662,
+            "lowerBound": 92756,
+            "upperBound": 130116
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569570,
+            "predictedBuy": 110734,
+            "predictedSell": 110872,
+            "confidence": 0.627,
+            "lowerBound": 90625,
+            "upperBound": 130843
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969570,
+            "predictedBuy": 109905,
+            "predictedSell": 110042,
+            "confidence": 0.592,
+            "lowerBound": 88412,
+            "upperBound": 131399
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369570,
+            "predictedBuy": 108952,
+            "predictedSell": 109088,
+            "confidence": 0.557,
+            "lowerBound": 86123,
+            "upperBound": 131781
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769570,
+            "predictedBuy": 107878,
+            "predictedSell": 108012,
+            "confidence": 0.522,
+            "lowerBound": 83767,
+            "upperBound": 131989
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169570,
+            "predictedBuy": 106686,
+            "predictedSell": 106818,
+            "confidence": 0.5,
+            "lowerBound": 81351,
+            "upperBound": 132020
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569570,
+            "predictedBuy": 105380,
+            "predictedSell": 105511,
+            "confidence": 0.5,
+            "lowerBound": 78883,
+            "upperBound": 131877
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969570,
+            "predictedBuy": 103965,
+            "predictedSell": 104095,
+            "confidence": 0.5,
+            "lowerBound": 76372,
+            "upperBound": 131559
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369570,
+            "predictedBuy": 102446,
+            "predictedSell": 102573,
+            "confidence": 0.5,
+            "lowerBound": 73825,
+            "upperBound": 131067
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769570,
+            "predictedBuy": 100827,
+            "predictedSell": 100952,
+            "confidence": 0.5,
+            "lowerBound": 71249,
+            "upperBound": 130404
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169570,
+            "predictedBuy": 99114,
+            "predictedSell": 99237,
+            "confidence": 0.5,
+            "lowerBound": 68654,
+            "upperBound": 129573
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569570,
+            "predictedBuy": 97312,
+            "predictedSell": 97433,
+            "confidence": 0.5,
+            "lowerBound": 66047,
+            "upperBound": 128577
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969570,
+            "predictedBuy": 95427,
+            "predictedSell": 95546,
+            "confidence": 0.5,
+            "lowerBound": 63435,
+            "upperBound": 127420
+          }
+        ],
+        "confidenceScore": 0.734,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.570422Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "eur",
+      "prediction": {
+        "currencyCode": "eur",
+        "currencyName": "Euro",
+        "currentPrice": {
+          "buy": 129400,
+          "sell": 129650,
+          "timestamp": "2025-11-23T08:26:09.572922Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769572,
+            "predictedBuy": 128755,
+            "predictedSell": 129004,
+            "confidence": 0.67,
+            "lowerBound": 104344,
+            "upperBound": 153167
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169572,
+            "predictedBuy": 127920,
+            "predictedSell": 128167,
+            "confidence": 0.636,
+            "lowerBound": 101462,
+            "upperBound": 154378
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569572,
+            "predictedBuy": 126897,
+            "predictedSell": 127142,
+            "confidence": 0.603,
+            "lowerBound": 98463,
+            "upperBound": 155330
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969572,
+            "predictedBuy": 125690,
+            "predictedSell": 125933,
+            "confidence": 0.569,
+            "lowerBound": 95361,
+            "upperBound": 156020
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369572,
+            "predictedBuy": 124305,
+            "predictedSell": 124545,
+            "confidence": 0.536,
+            "lowerBound": 92167,
+            "upperBound": 156443
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769572,
+            "predictedBuy": 122747,
+            "predictedSell": 122984,
+            "confidence": 0.502,
+            "lowerBound": 88896,
+            "upperBound": 156598
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169572,
+            "predictedBuy": 121023,
+            "predictedSell": 121257,
+            "confidence": 0.5,
+            "lowerBound": 85562,
+            "upperBound": 156485
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569572,
+            "predictedBuy": 119141,
+            "predictedSell": 119371,
+            "confidence": 0.5,
+            "lowerBound": 82178,
+            "upperBound": 156104
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969572,
+            "predictedBuy": 117107,
+            "predictedSell": 117334,
+            "confidence": 0.5,
+            "lowerBound": 78757,
+            "upperBound": 155458
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369572,
+            "predictedBuy": 114932,
+            "predictedSell": 115154,
+            "confidence": 0.5,
+            "lowerBound": 75312,
+            "upperBound": 154551
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769572,
+            "predictedBuy": 112622,
+            "predictedSell": 112840,
+            "confidence": 0.5,
+            "lowerBound": 71858,
+            "upperBound": 153387
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169572,
+            "predictedBuy": 110189,
+            "predictedSell": 110402,
+            "confidence": 0.5,
+            "lowerBound": 68406,
+            "upperBound": 151972
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569572,
+            "predictedBuy": 107642,
+            "predictedSell": 107850,
+            "confidence": 0.5,
+            "lowerBound": 64970,
+            "upperBound": 150315
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969572,
+            "predictedBuy": 104991,
+            "predictedSell": 105194,
+            "confidence": 0.5,
+            "lowerBound": 61560,
+            "upperBound": 148422
+          }
+        ],
+        "confidenceScore": 0.721,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.572925Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "gbp",
+      "prediction": {
+        "currencyCode": "gbp",
+        "currencyName": "British Pound",
+        "currentPrice": {
+          "buy": 147000,
+          "sell": 147255,
+          "timestamp": "2025-11-23T08:26:09.575382Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769575,
+            "predictedBuy": 146327,
+            "predictedSell": 146581,
+            "confidence": 0.683,
+            "lowerBound": 121081,
+            "upperBound": 171573
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169575,
+            "predictedBuy": 145454,
+            "predictedSell": 145706,
+            "confidence": 0.648,
+            "lowerBound": 118077,
+            "upperBound": 172831
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569575,
+            "predictedBuy": 144385,
+            "predictedSell": 144635,
+            "confidence": 0.614,
+            "lowerBound": 114944,
+            "upperBound": 173825
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969575,
+            "predictedBuy": 143123,
+            "predictedSell": 143371,
+            "confidence": 0.58,
+            "lowerBound": 111695,
+            "upperBound": 174551
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369575,
+            "predictedBuy": 141673,
+            "predictedSell": 141919,
+            "confidence": 0.546,
+            "lowerBound": 108342,
+            "upperBound": 175005
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769575,
+            "predictedBuy": 140042,
+            "predictedSell": 140285,
+            "confidence": 0.512,
+            "lowerBound": 104897,
+            "upperBound": 175186
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169575,
+            "predictedBuy": 138235,
+            "predictedSell": 138474,
+            "confidence": 0.5,
+            "lowerBound": 101376,
+            "upperBound": 175094
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569575,
+            "predictedBuy": 136259,
+            "predictedSell": 136495,
+            "confidence": 0.5,
+            "lowerBound": 97789,
+            "upperBound": 174728
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969575,
+            "predictedBuy": 134122,
+            "predictedSell": 134355,
+            "confidence": 0.5,
+            "lowerBound": 94152,
+            "upperBound": 174092
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369575,
+            "predictedBuy": 131833,
+            "predictedSell": 132061,
+            "confidence": 0.5,
+            "lowerBound": 90477,
+            "upperBound": 173188
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769575,
+            "predictedBuy": 129399,
+            "predictedSell": 129623,
+            "confidence": 0.5,
+            "lowerBound": 86778,
+            "upperBound": 172020
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169575,
+            "predictedBuy": 126831,
+            "predictedSell": 127051,
+            "confidence": 0.5,
+            "lowerBound": 83066,
+            "upperBound": 170595
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569575,
+            "predictedBuy": 124137,
+            "predictedSell": 124352,
+            "confidence": 0.5,
+            "lowerBound": 79355,
+            "upperBound": 168919
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969575,
+            "predictedBuy": 121328,
+            "predictedSell": 121539,
+            "confidence": 0.5,
+            "lowerBound": 75656,
+            "upperBound": 167000
+          }
+        ],
+        "confidenceScore": 0.727,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.575385Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "chf",
+      "prediction": {
+        "currencyCode": "chf",
+        "currencyName": "Swiss Franc",
+        "currentPrice": {
+          "buy": 138800,
+          "sell": 139050,
+          "timestamp": "2025-11-23T08:26:09.577831Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769577,
+            "predictedBuy": 138115,
+            "predictedSell": 138364,
+            "confidence": 0.668,
+            "lowerBound": 111539,
+            "upperBound": 164690
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169577,
+            "predictedBuy": 137227,
+            "predictedSell": 137474,
+            "confidence": 0.635,
+            "lowerBound": 108422,
+            "upperBound": 166032
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569577,
+            "predictedBuy": 136139,
+            "predictedSell": 136384,
+            "confidence": 0.601,
+            "lowerBound": 105181,
+            "upperBound": 167097
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969577,
+            "predictedBuy": 134856,
+            "predictedSell": 135099,
+            "confidence": 0.568,
+            "lowerBound": 101831,
+            "upperBound": 167881
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369577,
+            "predictedBuy": 133383,
+            "predictedSell": 133623,
+            "confidence": 0.534,
+            "lowerBound": 98385,
+            "upperBound": 168381
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769577,
+            "predictedBuy": 131726,
+            "predictedSell": 131964,
+            "confidence": 0.501,
+            "lowerBound": 94859,
+            "upperBound": 168594
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169577,
+            "predictedBuy": 129893,
+            "predictedSell": 130127,
+            "confidence": 0.5,
+            "lowerBound": 91267,
+            "upperBound": 168519
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569577,
+            "predictedBuy": 127891,
+            "predictedSell": 128121,
+            "confidence": 0.5,
+            "lowerBound": 87623,
+            "upperBound": 168159
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969577,
+            "predictedBuy": 125728,
+            "predictedSell": 125954,
+            "confidence": 0.5,
+            "lowerBound": 83941,
+            "upperBound": 167514
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369577,
+            "predictedBuy": 123413,
+            "predictedSell": 123635,
+            "confidence": 0.5,
+            "lowerBound": 80237,
+            "upperBound": 166588
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769577,
+            "predictedBuy": 120955,
+            "predictedSell": 121173,
+            "confidence": 0.5,
+            "lowerBound": 76524,
+            "upperBound": 165387
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169577,
+            "predictedBuy": 118366,
+            "predictedSell": 118579,
+            "confidence": 0.5,
+            "lowerBound": 72815,
+            "upperBound": 163917
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569577,
+            "predictedBuy": 115654,
+            "predictedSell": 115862,
+            "confidence": 0.5,
+            "lowerBound": 69124,
+            "upperBound": 162185
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969577,
+            "predictedBuy": 112831,
+            "predictedSell": 113034,
+            "confidence": 0.5,
+            "lowerBound": 65463,
+            "upperBound": 160200
+          }
+        ],
+        "confidenceScore": 0.72,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.577833Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "cad",
+      "prediction": {
+        "currencyCode": "cad",
+        "currencyName": "Canadian Dollar",
+        "currentPrice": {
+          "buy": 79700,
+          "sell": 79830,
+          "timestamp": "2025-11-23T08:26:09.580310Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769580,
+            "predictedBuy": 79371,
+            "predictedSell": 79500,
+            "confidence": 0.694,
+            "lowerBound": 66912,
+            "upperBound": 91830
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169580,
+            "predictedBuy": 78944,
+            "predictedSell": 79073,
+            "confidence": 0.659,
+            "lowerBound": 65426,
+            "upperBound": 92463
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569580,
+            "predictedBuy": 78421,
+            "predictedSell": 78549,
+            "confidence": 0.625,
+            "lowerBound": 63873,
+            "upperBound": 92969
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969580,
+            "predictedBuy": 77804,
+            "predictedSell": 77931,
+            "confidence": 0.59,
+            "lowerBound": 62260,
+            "upperBound": 93347
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369580,
+            "predictedBuy": 77094,
+            "predictedSell": 77220,
+            "confidence": 0.555,
+            "lowerBound": 60592,
+            "upperBound": 93596
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769580,
+            "predictedBuy": 76294,
+            "predictedSell": 76418,
+            "confidence": 0.521,
+            "lowerBound": 58875,
+            "upperBound": 93713
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169580,
+            "predictedBuy": 75407,
+            "predictedSell": 75530,
+            "confidence": 0.5,
+            "lowerBound": 57114,
+            "upperBound": 93700
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569580,
+            "predictedBuy": 74436,
+            "predictedSell": 74558,
+            "confidence": 0.5,
+            "lowerBound": 55317,
+            "upperBound": 93556
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969580,
+            "predictedBuy": 73385,
+            "predictedSell": 73505,
+            "confidence": 0.5,
+            "lowerBound": 53488,
+            "upperBound": 93282
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369580,
+            "predictedBuy": 72257,
+            "predictedSell": 72375,
+            "confidence": 0.5,
+            "lowerBound": 51635,
+            "upperBound": 92879
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769580,
+            "predictedBuy": 71055,
+            "predictedSell": 71171,
+            "confidence": 0.5,
+            "lowerBound": 49762,
+            "upperBound": 92349
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169580,
+            "predictedBuy": 69785,
+            "predictedSell": 69899,
+            "confidence": 0.5,
+            "lowerBound": 47877,
+            "upperBound": 91694
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569580,
+            "predictedBuy": 68451,
+            "predictedSell": 68562,
+            "confidence": 0.5,
+            "lowerBound": 45984,
+            "upperBound": 90917
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969580,
+            "predictedBuy": 67056,
+            "predictedSell": 67165,
+            "confidence": 0.5,
+            "lowerBound": 44090,
+            "upperBound": 90021
+          }
+        ],
+        "confidenceScore": 0.733,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.580314Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "aud",
+      "prediction": {
+        "currencyCode": "aud",
+        "currencyName": "Australian Dollar",
+        "currentPrice": {
+          "buy": 72450,
+          "sell": 72580,
+          "timestamp": "2025-11-23T08:26:09.582903Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769582,
+            "predictedBuy": 72153,
+            "predictedSell": 72283,
+            "confidence": 0.689,
+            "lowerBound": 60353,
+            "upperBound": 83954
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169582,
+            "predictedBuy": 71769,
+            "predictedSell": 71898,
+            "confidence": 0.655,
+            "lowerBound": 58964,
+            "upperBound": 84574
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569582,
+            "predictedBuy": 71298,
+            "predictedSell": 71426,
+            "confidence": 0.62,
+            "lowerBound": 57518,
+            "upperBound": 85079
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969582,
+            "predictedBuy": 70742,
+            "predictedSell": 70869,
+            "confidence": 0.586,
+            "lowerBound": 56017,
+            "upperBound": 85468
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369582,
+            "predictedBuy": 70103,
+            "predictedSell": 70229,
+            "confidence": 0.551,
+            "lowerBound": 54469,
+            "upperBound": 85738
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769582,
+            "predictedBuy": 69383,
+            "predictedSell": 69507,
+            "confidence": 0.517,
+            "lowerBound": 52877,
+            "upperBound": 85888
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169582,
+            "predictedBuy": 68584,
+            "predictedSell": 68707,
+            "confidence": 0.5,
+            "lowerBound": 51249,
+            "upperBound": 85919
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569582,
+            "predictedBuy": 67710,
+            "predictedSell": 67831,
+            "confidence": 0.5,
+            "lowerBound": 49589,
+            "upperBound": 85830
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969582,
+            "predictedBuy": 66762,
+            "predictedSell": 66882,
+            "confidence": 0.5,
+            "lowerBound": 47902,
+            "upperBound": 85622
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369582,
+            "predictedBuy": 65746,
+            "predictedSell": 65864,
+            "confidence": 0.5,
+            "lowerBound": 46195,
+            "upperBound": 85296
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769582,
+            "predictedBuy": 64663,
+            "predictedSell": 64779,
+            "confidence": 0.5,
+            "lowerBound": 44473,
+            "upperBound": 84853
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169582,
+            "predictedBuy": 63518,
+            "predictedSell": 63632,
+            "confidence": 0.5,
+            "lowerBound": 42742,
+            "upperBound": 84295
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569582,
+            "predictedBuy": 62315,
+            "predictedSell": 62427,
+            "confidence": 0.5,
+            "lowerBound": 41005,
+            "upperBound": 83625
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969582,
+            "predictedBuy": 61058,
+            "predictedSell": 61167,
+            "confidence": 0.5,
+            "lowerBound": 39270,
+            "upperBound": 82845
+          }
+        ],
+        "confidenceScore": 0.731,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.582905Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "sek",
+      "prediction": {
+        "currencyCode": "sek",
+        "currencyName": "Swedish Krona",
+        "currentPrice": {
+          "buy": 11700,
+          "sell": 11805,
+          "timestamp": "2025-11-23T08:26:09.585356Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769585,
+            "predictedBuy": 11636,
+            "predictedSell": 11740,
+            "confidence": 0.66,
+            "lowerBound": 9278,
+            "upperBound": 13993
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169585,
+            "predictedBuy": 11553,
+            "predictedSell": 11657,
+            "confidence": 0.627,
+            "lowerBound": 9000,
+            "upperBound": 14106
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569585,
+            "predictedBuy": 11452,
+            "predictedSell": 11554,
+            "confidence": 0.594,
+            "lowerBound": 8710,
+            "upperBound": 14193
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969585,
+            "predictedBuy": 11332,
+            "predictedSell": 11434,
+            "confidence": 0.561,
+            "lowerBound": 8410,
+            "upperBound": 14254
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369585,
+            "predictedBuy": 11195,
+            "predictedSell": 11296,
+            "confidence": 0.528,
+            "lowerBound": 8102,
+            "upperBound": 14288
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769585,
+            "predictedBuy": 11041,
+            "predictedSell": 11140,
+            "confidence": 0.5,
+            "lowerBound": 7788,
+            "upperBound": 14295
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169585,
+            "predictedBuy": 10871,
+            "predictedSell": 10969,
+            "confidence": 0.5,
+            "lowerBound": 7468,
+            "upperBound": 14275
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569585,
+            "predictedBuy": 10686,
+            "predictedSell": 10782,
+            "confidence": 0.5,
+            "lowerBound": 7143,
+            "upperBound": 14228
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969585,
+            "predictedBuy": 10486,
+            "predictedSell": 10580,
+            "confidence": 0.5,
+            "lowerBound": 6817,
+            "upperBound": 14155
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369585,
+            "predictedBuy": 10272,
+            "predictedSell": 10364,
+            "confidence": 0.5,
+            "lowerBound": 6488,
+            "upperBound": 14056
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769585,
+            "predictedBuy": 10046,
+            "predictedSell": 10136,
+            "confidence": 0.5,
+            "lowerBound": 6160,
+            "upperBound": 13931
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169585,
+            "predictedBuy": 9808,
+            "predictedSell": 9896,
+            "confidence": 0.5,
+            "lowerBound": 5834,
+            "upperBound": 13781
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569585,
+            "predictedBuy": 9559,
+            "predictedSell": 9645,
+            "confidence": 0.5,
+            "lowerBound": 5510,
+            "upperBound": 13608
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969585,
+            "predictedBuy": 9301,
+            "predictedSell": 9384,
+            "confidence": 0.5,
+            "lowerBound": 5190,
+            "upperBound": 13412
+          }
+        ],
+        "confidenceScore": 0.716,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.585359Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "nok",
+      "prediction": {
+        "currencyCode": "nok",
+        "currencyName": "Norwegian Krone",
+        "currentPrice": {
+          "buy": 11000,
+          "sell": 11000,
+          "timestamp": "2025-11-23T08:26:09.587817Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769587,
+            "predictedBuy": 10945,
+            "predictedSell": 10945,
+            "confidence": 0.668,
+            "lowerBound": 8845,
+            "upperBound": 13044
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169587,
+            "predictedBuy": 10874,
+            "predictedSell": 10874,
+            "confidence": 0.635,
+            "lowerBound": 8598,
+            "upperBound": 13149
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569587,
+            "predictedBuy": 10786,
+            "predictedSell": 10786,
+            "confidence": 0.602,
+            "lowerBound": 8341,
+            "upperBound": 13232
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969587,
+            "predictedBuy": 10684,
+            "predictedSell": 10684,
+            "confidence": 0.568,
+            "lowerBound": 8076,
+            "upperBound": 13292
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369587,
+            "predictedBuy": 10566,
+            "predictedSell": 10566,
+            "confidence": 0.535,
+            "lowerBound": 7802,
+            "upperBound": 13330
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769587,
+            "predictedBuy": 10433,
+            "predictedSell": 10433,
+            "confidence": 0.501,
+            "lowerBound": 7522,
+            "upperBound": 13344
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169587,
+            "predictedBuy": 10287,
+            "predictedSell": 10287,
+            "confidence": 0.5,
+            "lowerBound": 7237,
+            "upperBound": 13336
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569587,
+            "predictedBuy": 10126,
+            "predictedSell": 10126,
+            "confidence": 0.5,
+            "lowerBound": 6948,
+            "upperBound": 13305
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969587,
+            "predictedBuy": 9953,
+            "predictedSell": 9953,
+            "confidence": 0.5,
+            "lowerBound": 6656,
+            "upperBound": 13251
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369587,
+            "predictedBuy": 9768,
+            "predictedSell": 9768,
+            "confidence": 0.5,
+            "lowerBound": 6361,
+            "upperBound": 13175
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769587,
+            "predictedBuy": 9572,
+            "predictedSell": 9572,
+            "confidence": 0.5,
+            "lowerBound": 6066,
+            "upperBound": 13077
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169587,
+            "predictedBuy": 9365,
+            "predictedSell": 9365,
+            "confidence": 0.5,
+            "lowerBound": 5772,
+            "upperBound": 12957
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569587,
+            "predictedBuy": 9148,
+            "predictedSell": 9148,
+            "confidence": 0.5,
+            "lowerBound": 5479,
+            "upperBound": 12817
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969587,
+            "predictedBuy": 8922,
+            "predictedSell": 8922,
+            "confidence": 0.5,
+            "lowerBound": 5188,
+            "upperBound": 12656
+          }
+        ],
+        "confidenceScore": 0.72,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.587820Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "rub",
+      "prediction": {
+        "currencyCode": "rub",
+        "currencyName": "Russian Ruble",
+        "currentPrice": {
+          "buy": 1420,
+          "sell": 1430,
+          "timestamp": "2025-11-23T08:26:09.590286Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769590,
+            "predictedBuy": 1410,
+            "predictedSell": 1420,
+            "confidence": 0.646,
+            "lowerBound": 1097,
+            "upperBound": 1724
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169590,
+            "predictedBuy": 1398,
+            "predictedSell": 1408,
+            "confidence": 0.614,
+            "lowerBound": 1059,
+            "upperBound": 1737
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569590,
+            "predictedBuy": 1384,
+            "predictedSell": 1393,
+            "confidence": 0.581,
+            "lowerBound": 1020,
+            "upperBound": 1747
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969590,
+            "predictedBuy": 1366,
+            "predictedSell": 1376,
+            "confidence": 0.549,
+            "lowerBound": 980,
+            "upperBound": 1753
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369590,
+            "predictedBuy": 1347,
+            "predictedSell": 1356,
+            "confidence": 0.517,
+            "lowerBound": 939,
+            "upperBound": 1755
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769590,
+            "predictedBuy": 1325,
+            "predictedSell": 1334,
+            "confidence": 0.5,
+            "lowerBound": 896,
+            "upperBound": 1753
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169590,
+            "predictedBuy": 1300,
+            "predictedSell": 1309,
+            "confidence": 0.5,
+            "lowerBound": 854,
+            "upperBound": 1747
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569590,
+            "predictedBuy": 1274,
+            "predictedSell": 1283,
+            "confidence": 0.5,
+            "lowerBound": 810,
+            "upperBound": 1737
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969590,
+            "predictedBuy": 1245,
+            "predictedSell": 1254,
+            "confidence": 0.5,
+            "lowerBound": 767,
+            "upperBound": 1724
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369590,
+            "predictedBuy": 1215,
+            "predictedSell": 1224,
+            "confidence": 0.5,
+            "lowerBound": 724,
+            "upperBound": 1706
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769590,
+            "predictedBuy": 1183,
+            "predictedSell": 1191,
+            "confidence": 0.5,
+            "lowerBound": 681,
+            "upperBound": 1685
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169590,
+            "predictedBuy": 1150,
+            "predictedSell": 1158,
+            "confidence": 0.5,
+            "lowerBound": 638,
+            "upperBound": 1661
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569590,
+            "predictedBuy": 1115,
+            "predictedSell": 1123,
+            "confidence": 0.5,
+            "lowerBound": 597,
+            "upperBound": 1633
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969590,
+            "predictedBuy": 1079,
+            "predictedSell": 1086,
+            "confidence": 0.5,
+            "lowerBound": 556,
+            "upperBound": 1602
+          }
+        ],
+        "confidenceScore": 0.706,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.590289Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "thb",
+      "prediction": {
+        "currencyCode": "thb",
+        "currencyName": "Thai Baht",
+        "currentPrice": {
+          "buy": 3470,
+          "sell": 3480,
+          "timestamp": "2025-11-23T08:26:09.592733Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769592,
+            "predictedBuy": 3454,
+            "predictedSell": 3464,
+            "confidence": 0.683,
+            "lowerBound": 2860,
+            "upperBound": 4047
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169592,
+            "predictedBuy": 3434,
+            "predictedSell": 3444,
+            "confidence": 0.649,
+            "lowerBound": 2790,
+            "upperBound": 4077
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569592,
+            "predictedBuy": 3409,
+            "predictedSell": 3419,
+            "confidence": 0.615,
+            "lowerBound": 2717,
+            "upperBound": 4101
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969592,
+            "predictedBuy": 3380,
+            "predictedSell": 3390,
+            "confidence": 0.581,
+            "lowerBound": 2641,
+            "upperBound": 4119
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369592,
+            "predictedBuy": 3346,
+            "predictedSell": 3356,
+            "confidence": 0.546,
+            "lowerBound": 2562,
+            "upperBound": 4130
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769592,
+            "predictedBuy": 3309,
+            "predictedSell": 3318,
+            "confidence": 0.512,
+            "lowerBound": 2482,
+            "upperBound": 4136
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169592,
+            "predictedBuy": 3267,
+            "predictedSell": 3276,
+            "confidence": 0.5,
+            "lowerBound": 2399,
+            "upperBound": 4134
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569592,
+            "predictedBuy": 3221,
+            "predictedSell": 3230,
+            "confidence": 0.5,
+            "lowerBound": 2315,
+            "upperBound": 4127
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969592,
+            "predictedBuy": 3172,
+            "predictedSell": 3181,
+            "confidence": 0.5,
+            "lowerBound": 2230,
+            "upperBound": 4113
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369592,
+            "predictedBuy": 3119,
+            "predictedSell": 3128,
+            "confidence": 0.5,
+            "lowerBound": 2144,
+            "upperBound": 4093
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769592,
+            "predictedBuy": 3062,
+            "predictedSell": 3071,
+            "confidence": 0.5,
+            "lowerBound": 2058,
+            "upperBound": 4067
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169592,
+            "predictedBuy": 3003,
+            "predictedSell": 3011,
+            "confidence": 0.5,
+            "lowerBound": 1971,
+            "upperBound": 4035
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569592,
+            "predictedBuy": 2940,
+            "predictedSell": 2949,
+            "confidence": 0.5,
+            "lowerBound": 1884,
+            "upperBound": 3997
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969592,
+            "predictedBuy": 2875,
+            "predictedSell": 2883,
+            "confidence": 0.5,
+            "lowerBound": 1797,
+            "upperBound": 3953
+          }
+        ],
+        "confidenceScore": 0.728,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.592736Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "sgd",
+      "prediction": {
+        "currencyCode": "sgd",
+        "currencyName": "Singapore Dollar",
+        "currentPrice": {
+          "buy": 86250,
+          "sell": 86380,
+          "timestamp": "2025-11-23T08:26:09.595207Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769595,
+            "predictedBuy": 85872,
+            "predictedSell": 86001,
+            "confidence": 0.688,
+            "lowerBound": 71647,
+            "upperBound": 100096
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169595,
+            "predictedBuy": 85382,
+            "predictedSell": 85511,
+            "confidence": 0.653,
+            "lowerBound": 69953,
+            "upperBound": 100811
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569595,
+            "predictedBuy": 84781,
+            "predictedSell": 84909,
+            "confidence": 0.619,
+            "lowerBound": 68184,
+            "upperBound": 101379
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969595,
+            "predictedBuy": 84073,
+            "predictedSell": 84199,
+            "confidence": 0.584,
+            "lowerBound": 66348,
+            "upperBound": 101797
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369595,
+            "predictedBuy": 83258,
+            "predictedSell": 83384,
+            "confidence": 0.55,
+            "lowerBound": 64451,
+            "upperBound": 102065
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769595,
+            "predictedBuy": 82341,
+            "predictedSell": 82465,
+            "confidence": 0.516,
+            "lowerBound": 62501,
+            "upperBound": 102180
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169595,
+            "predictedBuy": 81325,
+            "predictedSell": 81447,
+            "confidence": 0.5,
+            "lowerBound": 60505,
+            "upperBound": 102144
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569595,
+            "predictedBuy": 80213,
+            "predictedSell": 80334,
+            "confidence": 0.5,
+            "lowerBound": 58470,
+            "upperBound": 101955
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969595,
+            "predictedBuy": 79010,
+            "predictedSell": 79129,
+            "confidence": 0.5,
+            "lowerBound": 56403,
+            "upperBound": 101616
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369595,
+            "predictedBuy": 77720,
+            "predictedSell": 77837,
+            "confidence": 0.5,
+            "lowerBound": 54312,
+            "upperBound": 101127
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769595,
+            "predictedBuy": 76347,
+            "predictedSell": 76462,
+            "confidence": 0.5,
+            "lowerBound": 52203,
+            "upperBound": 100491
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169595,
+            "predictedBuy": 74898,
+            "predictedSell": 75011,
+            "confidence": 0.5,
+            "lowerBound": 50084,
+            "upperBound": 99711
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569595,
+            "predictedBuy": 73377,
+            "predictedSell": 73487,
+            "confidence": 0.5,
+            "lowerBound": 47962,
+            "upperBound": 98791
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969595,
+            "predictedBuy": 71789,
+            "predictedSell": 71897,
+            "confidence": 0.5,
+            "lowerBound": 45843,
+            "upperBound": 97734
+          }
+        ],
+        "confidenceScore": 0.73,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.595209Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "hkd",
+      "prediction": {
+        "currencyCode": "hkd",
+        "currencyName": "Hong Kong Dollar",
+        "currentPrice": {
+          "buy": 14350,
+          "sell": 14460,
+          "timestamp": "2025-11-23T08:26:09.597650Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769597,
+            "predictedBuy": 14294,
+            "predictedSell": 14404,
+            "confidence": 0.696,
+            "lowerBound": 12091,
+            "upperBound": 16498
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169597,
+            "predictedBuy": 14223,
+            "predictedSell": 14332,
+            "confidence": 0.661,
+            "lowerBound": 11831,
+            "upperBound": 16614
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569597,
+            "predictedBuy": 14135,
+            "predictedSell": 14243,
+            "confidence": 0.626,
+            "lowerBound": 11560,
+            "upperBound": 16710
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969597,
+            "predictedBuy": 14031,
+            "predictedSell": 14139,
+            "confidence": 0.592,
+            "lowerBound": 11278,
+            "upperBound": 16784
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369597,
+            "predictedBuy": 13912,
+            "predictedSell": 14019,
+            "confidence": 0.557,
+            "lowerBound": 10988,
+            "upperBound": 16836
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769597,
+            "predictedBuy": 13777,
+            "predictedSell": 13883,
+            "confidence": 0.522,
+            "lowerBound": 10688,
+            "upperBound": 16867
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169597,
+            "predictedBuy": 13628,
+            "predictedSell": 13733,
+            "confidence": 0.5,
+            "lowerBound": 10381,
+            "upperBound": 16875
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569597,
+            "predictedBuy": 13465,
+            "predictedSell": 13568,
+            "confidence": 0.5,
+            "lowerBound": 10068,
+            "upperBound": 16861
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969597,
+            "predictedBuy": 13288,
+            "predictedSell": 13389,
+            "confidence": 0.5,
+            "lowerBound": 9750,
+            "upperBound": 16825
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369597,
+            "predictedBuy": 13097,
+            "predictedSell": 13198,
+            "confidence": 0.5,
+            "lowerBound": 9426,
+            "upperBound": 16768
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769597,
+            "predictedBuy": 12894,
+            "predictedSell": 12993,
+            "confidence": 0.5,
+            "lowerBound": 9100,
+            "upperBound": 16689
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169597,
+            "predictedBuy": 12680,
+            "predictedSell": 12777,
+            "confidence": 0.5,
+            "lowerBound": 8770,
+            "upperBound": 16589
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569597,
+            "predictedBuy": 12454,
+            "predictedSell": 12549,
+            "confidence": 0.5,
+            "lowerBound": 8440,
+            "upperBound": 16468
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969597,
+            "predictedBuy": 12217,
+            "predictedSell": 12311,
+            "confidence": 0.5,
+            "lowerBound": 8108,
+            "upperBound": 16326
+          }
+        ],
+        "confidenceScore": 0.734,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.597653Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "azn",
+      "prediction": {
+        "currencyCode": "azn",
+        "currencyName": "Azerbaijani Manat",
+        "currentPrice": {
+          "buy": 65950,
+          "sell": 66075,
+          "timestamp": "2025-11-23T08:26:09.600107Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769600,
+            "predictedBuy": 65690,
+            "predictedSell": 65814,
+            "confidence": 0.696,
+            "lowerBound": 55564,
+            "upperBound": 75816
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169600,
+            "predictedBuy": 65353,
+            "predictedSell": 65477,
+            "confidence": 0.661,
+            "lowerBound": 54363,
+            "upperBound": 76343
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569600,
+            "predictedBuy": 64940,
+            "predictedSell": 65063,
+            "confidence": 0.626,
+            "lowerBound": 53109,
+            "upperBound": 76771
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969600,
+            "predictedBuy": 64452,
+            "predictedSell": 64574,
+            "confidence": 0.592,
+            "lowerBound": 51807,
+            "upperBound": 77097
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369600,
+            "predictedBuy": 63891,
+            "predictedSell": 64012,
+            "confidence": 0.557,
+            "lowerBound": 50461,
+            "upperBound": 77322
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769600,
+            "predictedBuy": 63259,
+            "predictedSell": 63379,
+            "confidence": 0.522,
+            "lowerBound": 49075,
+            "upperBound": 77443
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169600,
+            "predictedBuy": 62558,
+            "predictedSell": 62676,
+            "confidence": 0.5,
+            "lowerBound": 47654,
+            "upperBound": 77461
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569600,
+            "predictedBuy": 61789,
+            "predictedSell": 61907,
+            "confidence": 0.5,
+            "lowerBound": 46203,
+            "upperBound": 77376
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969600,
+            "predictedBuy": 60957,
+            "predictedSell": 61073,
+            "confidence": 0.5,
+            "lowerBound": 44726,
+            "upperBound": 77188
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369600,
+            "predictedBuy": 60063,
+            "predictedSell": 60177,
+            "confidence": 0.5,
+            "lowerBound": 43229,
+            "upperBound": 76897
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769600,
+            "predictedBuy": 59111,
+            "predictedSell": 59223,
+            "confidence": 0.5,
+            "lowerBound": 41715,
+            "upperBound": 76506
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169600,
+            "predictedBuy": 58103,
+            "predictedSell": 58213,
+            "confidence": 0.5,
+            "lowerBound": 40189,
+            "upperBound": 76016
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569600,
+            "predictedBuy": 57043,
+            "predictedSell": 57151,
+            "confidence": 0.5,
+            "lowerBound": 38657,
+            "upperBound": 75429
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969600,
+            "predictedBuy": 55934,
+            "predictedSell": 56040,
+            "confidence": 0.5,
+            "lowerBound": 37122,
+            "upperBound": 74747
+          }
+        ],
+        "confidenceScore": 0.734,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.600109Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "amd",
+      "prediction": {
+        "currencyCode": "amd",
+        "currencyName": "Armenian Dram",
+        "currentPrice": {
+          "buy": 294.5,
+          "sell": 295.09444444444443,
+          "timestamp": "2025-11-23T08:26:09.602581Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769602,
+            "predictedBuy": 293,
+            "predictedSell": 293,
+            "confidence": 0.688,
+            "lowerBound": 244,
+            "upperBound": 341
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169602,
+            "predictedBuy": 291,
+            "predictedSell": 292,
+            "confidence": 0.654,
+            "lowerBound": 239,
+            "upperBound": 344
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569602,
+            "predictedBuy": 289,
+            "predictedSell": 290,
+            "confidence": 0.619,
+            "lowerBound": 233,
+            "upperBound": 346
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969602,
+            "predictedBuy": 287,
+            "predictedSell": 287,
+            "confidence": 0.585,
+            "lowerBound": 226,
+            "upperBound": 347
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369602,
+            "predictedBuy": 284,
+            "predictedSell": 285,
+            "confidence": 0.55,
+            "lowerBound": 220,
+            "upperBound": 348
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769602,
+            "predictedBuy": 281,
+            "predictedSell": 282,
+            "confidence": 0.516,
+            "lowerBound": 213,
+            "upperBound": 349
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169602,
+            "predictedBuy": 278,
+            "predictedSell": 278,
+            "confidence": 0.5,
+            "lowerBound": 207,
+            "upperBound": 349
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569602,
+            "predictedBuy": 274,
+            "predictedSell": 275,
+            "confidence": 0.5,
+            "lowerBound": 200,
+            "upperBound": 348
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969602,
+            "predictedBuy": 270,
+            "predictedSell": 271,
+            "confidence": 0.5,
+            "lowerBound": 193,
+            "upperBound": 347
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369602,
+            "predictedBuy": 266,
+            "predictedSell": 266,
+            "confidence": 0.5,
+            "lowerBound": 186,
+            "upperBound": 346
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769602,
+            "predictedBuy": 261,
+            "predictedSell": 262,
+            "confidence": 0.5,
+            "lowerBound": 179,
+            "upperBound": 344
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169602,
+            "predictedBuy": 257,
+            "predictedSell": 257,
+            "confidence": 0.5,
+            "lowerBound": 172,
+            "upperBound": 342
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569602,
+            "predictedBuy": 252,
+            "predictedSell": 252,
+            "confidence": 0.5,
+            "lowerBound": 165,
+            "upperBound": 339
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969602,
+            "predictedBuy": 246,
+            "predictedSell": 247,
+            "confidence": 0.5,
+            "lowerBound": 157,
+            "upperBound": 335
+          }
+        ],
+        "confidenceScore": 0.73,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.602584Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "dkk",
+      "prediction": {
+        "currencyCode": "dkk",
+        "currencyName": "Danish Krone",
+        "currentPrice": {
+          "buy": 17250,
+          "sell": 17360,
+          "timestamp": "2025-11-23T08:26:09.605036Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769604,
+            "predictedBuy": 17163,
+            "predictedSell": 17273,
+            "confidence": 0.669,
+            "lowerBound": 13885,
+            "upperBound": 20442
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169604,
+            "predictedBuy": 17051,
+            "predictedSell": 17160,
+            "confidence": 0.636,
+            "lowerBound": 13498,
+            "upperBound": 20604
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569604,
+            "predictedBuy": 16914,
+            "predictedSell": 17022,
+            "confidence": 0.602,
+            "lowerBound": 13096,
+            "upperBound": 20732
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969604,
+            "predictedBuy": 16752,
+            "predictedSell": 16859,
+            "confidence": 0.569,
+            "lowerBound": 12680,
+            "upperBound": 20825
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369604,
+            "predictedBuy": 16567,
+            "predictedSell": 16672,
+            "confidence": 0.535,
+            "lowerBound": 12251,
+            "upperBound": 20882
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769604,
+            "predictedBuy": 16358,
+            "predictedSell": 16462,
+            "confidence": 0.502,
+            "lowerBound": 11813,
+            "upperBound": 20903
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169604,
+            "predictedBuy": 16127,
+            "predictedSell": 16230,
+            "confidence": 0.5,
+            "lowerBound": 11366,
+            "upperBound": 20887
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569605,
+            "predictedBuy": 15875,
+            "predictedSell": 15976,
+            "confidence": 0.5,
+            "lowerBound": 10913,
+            "upperBound": 20836
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969605,
+            "predictedBuy": 15602,
+            "predictedSell": 15702,
+            "confidence": 0.5,
+            "lowerBound": 10454,
+            "upperBound": 20750
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369605,
+            "predictedBuy": 15311,
+            "predictedSell": 15408,
+            "confidence": 0.5,
+            "lowerBound": 9993,
+            "upperBound": 20628
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769605,
+            "predictedBuy": 15001,
+            "predictedSell": 15097,
+            "confidence": 0.5,
+            "lowerBound": 9531,
+            "upperBound": 20472
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169605,
+            "predictedBuy": 14675,
+            "predictedSell": 14769,
+            "confidence": 0.5,
+            "lowerBound": 9069,
+            "upperBound": 20282
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569605,
+            "predictedBuy": 14334,
+            "predictedSell": 14425,
+            "confidence": 0.5,
+            "lowerBound": 8609,
+            "upperBound": 20059
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969605,
+            "predictedBuy": 13979,
+            "predictedSell": 14068,
+            "confidence": 0.5,
+            "lowerBound": 8153,
+            "upperBound": 19805
+          }
+        ],
+        "confidenceScore": 0.721,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.605039Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "aed",
+      "prediction": {
+        "currencyCode": "aed",
+        "currencyName": "UAE Dirham",
+        "currentPrice": {
+          "buy": 30800,
+          "sell": 30845,
+          "timestamp": "2025-11-23T08:26:09.607500Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769607,
+            "predictedBuy": 30680,
+            "predictedSell": 30725,
+            "confidence": 0.693,
+            "lowerBound": 25837,
+            "upperBound": 35523
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169607,
+            "predictedBuy": 30525,
+            "predictedSell": 30570,
+            "confidence": 0.659,
+            "lowerBound": 25268,
+            "upperBound": 35782
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569607,
+            "predictedBuy": 30335,
+            "predictedSell": 30379,
+            "confidence": 0.624,
+            "lowerBound": 24676,
+            "upperBound": 35994
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969607,
+            "predictedBuy": 30111,
+            "predictedSell": 30155,
+            "confidence": 0.589,
+            "lowerBound": 24061,
+            "upperBound": 36160
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369607,
+            "predictedBuy": 29852,
+            "predictedSell": 29896,
+            "confidence": 0.555,
+            "lowerBound": 23426,
+            "upperBound": 36279
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769607,
+            "predictedBuy": 29561,
+            "predictedSell": 29605,
+            "confidence": 0.52,
+            "lowerBound": 22773,
+            "upperBound": 36349
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169607,
+            "predictedBuy": 29238,
+            "predictedSell": 29281,
+            "confidence": 0.5,
+            "lowerBound": 22105,
+            "upperBound": 36372
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569607,
+            "predictedBuy": 28885,
+            "predictedSell": 28927,
+            "confidence": 0.5,
+            "lowerBound": 21423,
+            "upperBound": 36346
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969607,
+            "predictedBuy": 28501,
+            "predictedSell": 28543,
+            "confidence": 0.5,
+            "lowerBound": 20730,
+            "upperBound": 36273
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369607,
+            "predictedBuy": 28090,
+            "predictedSell": 28131,
+            "confidence": 0.5,
+            "lowerBound": 20027,
+            "upperBound": 36152
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769607,
+            "predictedBuy": 27651,
+            "predictedSell": 27691,
+            "confidence": 0.5,
+            "lowerBound": 19317,
+            "upperBound": 35984
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169607,
+            "predictedBuy": 27186,
+            "predictedSell": 27226,
+            "confidence": 0.5,
+            "lowerBound": 18603,
+            "upperBound": 35770
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569607,
+            "predictedBuy": 26698,
+            "predictedSell": 26737,
+            "confidence": 0.5,
+            "lowerBound": 17885,
+            "upperBound": 35510
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969607,
+            "predictedBuy": 26187,
+            "predictedSell": 26225,
+            "confidence": 0.5,
+            "lowerBound": 17167,
+            "upperBound": 35206
+          }
+        ],
+        "confidenceScore": 0.733,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.607503Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "jpy",
+      "prediction": {
+        "currencyCode": "jpy",
+        "currencyName": "Japanese Yen",
+        "currentPrice": {
+          "buy": 720,
+          "sell": 720,
+          "timestamp": "2025-11-23T08:26:09.609938Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769609,
+            "predictedBuy": 716,
+            "predictedSell": 716,
+            "confidence": 0.694,
+            "lowerBound": 604,
+            "upperBound": 828
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169609,
+            "predictedBuy": 712,
+            "predictedSell": 712,
+            "confidence": 0.66,
+            "lowerBound": 591,
+            "upperBound": 834
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569609,
+            "predictedBuy": 707,
+            "predictedSell": 707,
+            "confidence": 0.625,
+            "lowerBound": 576,
+            "upperBound": 838
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969609,
+            "predictedBuy": 701,
+            "predictedSell": 701,
+            "confidence": 0.59,
+            "lowerBound": 562,
+            "upperBound": 841
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369609,
+            "predictedBuy": 694,
+            "predictedSell": 694,
+            "confidence": 0.556,
+            "lowerBound": 546,
+            "upperBound": 843
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769609,
+            "predictedBuy": 687,
+            "predictedSell": 687,
+            "confidence": 0.521,
+            "lowerBound": 530,
+            "upperBound": 843
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169609,
+            "predictedBuy": 678,
+            "predictedSell": 678,
+            "confidence": 0.5,
+            "lowerBound": 514,
+            "upperBound": 842
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569609,
+            "predictedBuy": 669,
+            "predictedSell": 669,
+            "confidence": 0.5,
+            "lowerBound": 497,
+            "upperBound": 840
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969609,
+            "predictedBuy": 659,
+            "predictedSell": 659,
+            "confidence": 0.5,
+            "lowerBound": 481,
+            "upperBound": 837
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369609,
+            "predictedBuy": 648,
+            "predictedSell": 648,
+            "confidence": 0.5,
+            "lowerBound": 463,
+            "upperBound": 832
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769609,
+            "predictedBuy": 636,
+            "predictedSell": 636,
+            "confidence": 0.5,
+            "lowerBound": 446,
+            "upperBound": 826
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169609,
+            "predictedBuy": 624,
+            "predictedSell": 624,
+            "confidence": 0.5,
+            "lowerBound": 429,
+            "upperBound": 819
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569609,
+            "predictedBuy": 611,
+            "predictedSell": 611,
+            "confidence": 0.5,
+            "lowerBound": 411,
+            "upperBound": 811
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969609,
+            "predictedBuy": 598,
+            "predictedSell": 598,
+            "confidence": 0.5,
+            "lowerBound": 394,
+            "upperBound": 802
+          }
+        ],
+        "confidenceScore": 0.733,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.609940Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "try",
+      "prediction": {
+        "currencyCode": "try",
+        "currencyName": "Turkish Lira",
+        "currentPrice": {
+          "buy": 2640,
+          "sell": 2665,
+          "timestamp": "2025-11-23T08:26:09.612390Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769612,
+            "predictedBuy": 2634,
+            "predictedSell": 2659,
+            "confidence": 0.732,
+            "lowerBound": 2357,
+            "upperBound": 2910
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169612,
+            "predictedBuy": 2626,
+            "predictedSell": 2651,
+            "confidence": 0.696,
+            "lowerBound": 2325,
+            "upperBound": 2927
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569612,
+            "predictedBuy": 2617,
+            "predictedSell": 2642,
+            "confidence": 0.659,
+            "lowerBound": 2292,
+            "upperBound": 2942
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969612,
+            "predictedBuy": 2606,
+            "predictedSell": 2631,
+            "confidence": 0.622,
+            "lowerBound": 2258,
+            "upperBound": 2954
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369612,
+            "predictedBuy": 2594,
+            "predictedSell": 2618,
+            "confidence": 0.586,
+            "lowerBound": 2222,
+            "upperBound": 2965
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769612,
+            "predictedBuy": 2579,
+            "predictedSell": 2604,
+            "confidence": 0.549,
+            "lowerBound": 2186,
+            "upperBound": 2973
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169612,
+            "predictedBuy": 2564,
+            "predictedSell": 2588,
+            "confidence": 0.513,
+            "lowerBound": 2148,
+            "upperBound": 2980
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569612,
+            "predictedBuy": 2546,
+            "predictedSell": 2570,
+            "confidence": 0.5,
+            "lowerBound": 2109,
+            "upperBound": 2984
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969612,
+            "predictedBuy": 2527,
+            "predictedSell": 2551,
+            "confidence": 0.5,
+            "lowerBound": 2069,
+            "upperBound": 2986
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369612,
+            "predictedBuy": 2507,
+            "predictedSell": 2531,
+            "confidence": 0.5,
+            "lowerBound": 2028,
+            "upperBound": 2985
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769612,
+            "predictedBuy": 2485,
+            "predictedSell": 2508,
+            "confidence": 0.5,
+            "lowerBound": 1987,
+            "upperBound": 2983
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169612,
+            "predictedBuy": 2461,
+            "predictedSell": 2485,
+            "confidence": 0.5,
+            "lowerBound": 1945,
+            "upperBound": 2978
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569612,
+            "predictedBuy": 2437,
+            "predictedSell": 2460,
+            "confidence": 0.5,
+            "lowerBound": 1902,
+            "upperBound": 2972
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969612,
+            "predictedBuy": 2410,
+            "predictedSell": 2433,
+            "confidence": 0.5,
+            "lowerBound": 1858,
+            "upperBound": 2963
+          }
+        ],
+        "confidenceScore": 0.752,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.612393Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "cny",
+      "prediction": {
+        "currencyCode": "cny",
+        "currencyName": "Chinese Yuan",
+        "currentPrice": {
+          "buy": 15850,
+          "sell": 15855,
+          "timestamp": "2025-11-23T08:26:09.614824Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769614,
+            "predictedBuy": 15785,
+            "predictedSell": 15790,
+            "confidence": 0.691,
+            "lowerBound": 13234,
+            "upperBound": 18336
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169614,
+            "predictedBuy": 15701,
+            "predictedSell": 15706,
+            "confidence": 0.656,
+            "lowerBound": 12933,
+            "upperBound": 18469
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569614,
+            "predictedBuy": 15598,
+            "predictedSell": 15603,
+            "confidence": 0.622,
+            "lowerBound": 12619,
+            "upperBound": 18577
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969614,
+            "predictedBuy": 15476,
+            "predictedSell": 15481,
+            "confidence": 0.587,
+            "lowerBound": 12293,
+            "upperBound": 18659
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369614,
+            "predictedBuy": 15336,
+            "predictedSell": 15341,
+            "confidence": 0.552,
+            "lowerBound": 11957,
+            "upperBound": 18716
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769614,
+            "predictedBuy": 15179,
+            "predictedSell": 15183,
+            "confidence": 0.518,
+            "lowerBound": 11611,
+            "upperBound": 18747
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169614,
+            "predictedBuy": 15004,
+            "predictedSell": 15009,
+            "confidence": 0.5,
+            "lowerBound": 11257,
+            "upperBound": 18751
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569614,
+            "predictedBuy": 14813,
+            "predictedSell": 14817,
+            "confidence": 0.5,
+            "lowerBound": 10895,
+            "upperBound": 18730
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969614,
+            "predictedBuy": 14605,
+            "predictedSell": 14610,
+            "confidence": 0.5,
+            "lowerBound": 10528,
+            "upperBound": 18682
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369614,
+            "predictedBuy": 14383,
+            "predictedSell": 14388,
+            "confidence": 0.5,
+            "lowerBound": 10157,
+            "upperBound": 18609
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769614,
+            "predictedBuy": 14146,
+            "predictedSell": 14151,
+            "confidence": 0.5,
+            "lowerBound": 9782,
+            "upperBound": 18511
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169614,
+            "predictedBuy": 13896,
+            "predictedSell": 13900,
+            "confidence": 0.5,
+            "lowerBound": 9404,
+            "upperBound": 18387
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569614,
+            "predictedBuy": 13633,
+            "predictedSell": 13637,
+            "confidence": 0.5,
+            "lowerBound": 9026,
+            "upperBound": 18239
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969614,
+            "predictedBuy": 13357,
+            "predictedSell": 13362,
+            "confidence": 0.5,
+            "lowerBound": 8648,
+            "upperBound": 18067
+          }
+        ],
+        "confidenceScore": 0.731,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.614827Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "sar",
+      "prediction": {
+        "currencyCode": "sar",
+        "currencyName": "KSA Riyal",
+        "currentPrice": {
+          "buy": 29900,
+          "sell": 30015,
+          "timestamp": "2025-11-23T08:26:09.617272Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769617,
+            "predictedBuy": 29781,
+            "predictedSell": 29896,
+            "confidence": 0.696,
+            "lowerBound": 25181,
+            "upperBound": 34382
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169617,
+            "predictedBuy": 29628,
+            "predictedSell": 29742,
+            "confidence": 0.661,
+            "lowerBound": 24635,
+            "upperBound": 34621
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569617,
+            "predictedBuy": 29440,
+            "predictedSell": 29553,
+            "confidence": 0.626,
+            "lowerBound": 24065,
+            "upperBound": 34815
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969617,
+            "predictedBuy": 29218,
+            "predictedSell": 29330,
+            "confidence": 0.591,
+            "lowerBound": 23473,
+            "upperBound": 34963
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369617,
+            "predictedBuy": 28963,
+            "predictedSell": 29074,
+            "confidence": 0.557,
+            "lowerBound": 22861,
+            "upperBound": 35064
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769617,
+            "predictedBuy": 28675,
+            "predictedSell": 28785,
+            "confidence": 0.522,
+            "lowerBound": 22232,
+            "upperBound": 35119
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169617,
+            "predictedBuy": 28356,
+            "predictedSell": 28465,
+            "confidence": 0.5,
+            "lowerBound": 21586,
+            "upperBound": 35126
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569617,
+            "predictedBuy": 28006,
+            "predictedSell": 28114,
+            "confidence": 0.5,
+            "lowerBound": 20926,
+            "upperBound": 35086
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969617,
+            "predictedBuy": 27628,
+            "predictedSell": 27734,
+            "confidence": 0.5,
+            "lowerBound": 20255,
+            "upperBound": 35000
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369617,
+            "predictedBuy": 27221,
+            "predictedSell": 27326,
+            "confidence": 0.5,
+            "lowerBound": 19575,
+            "upperBound": 34867
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769617,
+            "predictedBuy": 26788,
+            "predictedSell": 26891,
+            "confidence": 0.5,
+            "lowerBound": 18887,
+            "upperBound": 34688
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169617,
+            "predictedBuy": 26329,
+            "predictedSell": 26430,
+            "confidence": 0.5,
+            "lowerBound": 18194,
+            "upperBound": 34464
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569617,
+            "predictedBuy": 25847,
+            "predictedSell": 25946,
+            "confidence": 0.5,
+            "lowerBound": 17498,
+            "upperBound": 34196
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969617,
+            "predictedBuy": 25343,
+            "predictedSell": 25440,
+            "confidence": 0.5,
+            "lowerBound": 16801,
+            "upperBound": 33885
+          }
+        ],
+        "confidenceScore": 0.734,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.617275Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "inr",
+      "prediction": {
+        "currencyCode": "inr",
+        "currencyName": "Indian Rupee",
+        "currentPrice": {
+          "buy": 1250,
+          "sell": 1260,
+          "timestamp": "2025-11-23T08:26:09.619714Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769619,
+            "predictedBuy": 1245,
+            "predictedSell": 1255,
+            "confidence": 0.707,
+            "lowerBound": 1072,
+            "upperBound": 1418
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169619,
+            "predictedBuy": 1239,
+            "predictedSell": 1249,
+            "confidence": 0.672,
+            "lowerBound": 1051,
+            "upperBound": 1427
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569619,
+            "predictedBuy": 1232,
+            "predictedSell": 1242,
+            "confidence": 0.636,
+            "lowerBound": 1029,
+            "upperBound": 1435
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969619,
+            "predictedBuy": 1224,
+            "predictedSell": 1234,
+            "confidence": 0.601,
+            "lowerBound": 1007,
+            "upperBound": 1441
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369619,
+            "predictedBuy": 1214,
+            "predictedSell": 1224,
+            "confidence": 0.566,
+            "lowerBound": 984,
+            "upperBound": 1445
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769619,
+            "predictedBuy": 1203,
+            "predictedSell": 1213,
+            "confidence": 0.53,
+            "lowerBound": 960,
+            "upperBound": 1447
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169619,
+            "predictedBuy": 1191,
+            "predictedSell": 1201,
+            "confidence": 0.5,
+            "lowerBound": 935,
+            "upperBound": 1447
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569619,
+            "predictedBuy": 1178,
+            "predictedSell": 1187,
+            "confidence": 0.5,
+            "lowerBound": 910,
+            "upperBound": 1446
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969619,
+            "predictedBuy": 1164,
+            "predictedSell": 1173,
+            "confidence": 0.5,
+            "lowerBound": 884,
+            "upperBound": 1443
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369619,
+            "predictedBuy": 1148,
+            "predictedSell": 1157,
+            "confidence": 0.5,
+            "lowerBound": 858,
+            "upperBound": 1439
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769619,
+            "predictedBuy": 1132,
+            "predictedSell": 1141,
+            "confidence": 0.5,
+            "lowerBound": 831,
+            "upperBound": 1432
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169619,
+            "predictedBuy": 1114,
+            "predictedSell": 1123,
+            "confidence": 0.5,
+            "lowerBound": 804,
+            "upperBound": 1424
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569619,
+            "predictedBuy": 1096,
+            "predictedSell": 1104,
+            "confidence": 0.5,
+            "lowerBound": 777,
+            "upperBound": 1415
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969619,
+            "predictedBuy": 1076,
+            "predictedSell": 1085,
+            "confidence": 0.5,
+            "lowerBound": 749,
+            "upperBound": 1403
+          }
+        ],
+        "confidenceScore": 0.739,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.619717Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "myr",
+      "prediction": {
+        "currencyCode": "myr",
+        "currencyName": "Malaysian Ringgit",
+        "currentPrice": {
+          "buy": 26900,
+          "sell": 27010,
+          "timestamp": "2025-11-23T08:26:09.622153Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769622,
+            "predictedBuy": 26780,
+            "predictedSell": 26889,
+            "confidence": 0.682,
+            "lowerBound": 22124,
+            "upperBound": 31435
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169622,
+            "predictedBuy": 26624,
+            "predictedSell": 26733,
+            "confidence": 0.648,
+            "lowerBound": 21575,
+            "upperBound": 31673
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569622,
+            "predictedBuy": 26433,
+            "predictedSell": 26541,
+            "confidence": 0.613,
+            "lowerBound": 21002,
+            "upperBound": 31864
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969622,
+            "predictedBuy": 26208,
+            "predictedSell": 26315,
+            "confidence": 0.579,
+            "lowerBound": 20409,
+            "upperBound": 32007
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369622,
+            "predictedBuy": 25950,
+            "predictedSell": 26056,
+            "confidence": 0.545,
+            "lowerBound": 19798,
+            "upperBound": 32101
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769622,
+            "predictedBuy": 25658,
+            "predictedSell": 25763,
+            "confidence": 0.511,
+            "lowerBound": 19170,
+            "upperBound": 32147
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169622,
+            "predictedBuy": 25336,
+            "predictedSell": 25439,
+            "confidence": 0.5,
+            "lowerBound": 18529,
+            "upperBound": 32143
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569622,
+            "predictedBuy": 24983,
+            "predictedSell": 25085,
+            "confidence": 0.5,
+            "lowerBound": 17876,
+            "upperBound": 32090
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969622,
+            "predictedBuy": 24601,
+            "predictedSell": 24702,
+            "confidence": 0.5,
+            "lowerBound": 17214,
+            "upperBound": 31989
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369622,
+            "predictedBuy": 24192,
+            "predictedSell": 24291,
+            "confidence": 0.5,
+            "lowerBound": 16545,
+            "upperBound": 31839
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769622,
+            "predictedBuy": 23757,
+            "predictedSell": 23854,
+            "confidence": 0.5,
+            "lowerBound": 15872,
+            "upperBound": 31642
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169622,
+            "predictedBuy": 23298,
+            "predictedSell": 23393,
+            "confidence": 0.5,
+            "lowerBound": 15197,
+            "upperBound": 31398
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569622,
+            "predictedBuy": 22816,
+            "predictedSell": 22909,
+            "confidence": 0.5,
+            "lowerBound": 14522,
+            "upperBound": 31109
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969622,
+            "predictedBuy": 22313,
+            "predictedSell": 22404,
+            "confidence": 0.5,
+            "lowerBound": 13849,
+            "upperBound": 30776
+          }
+        ],
+        "confidenceScore": 0.727,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.622155Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "afn",
+      "prediction": {
+        "currencyCode": "afn",
+        "currencyName": "Afghan Afghani",
+        "currentPrice": {
+          "buy": 1690,
+          "sell": 1700,
+          "timestamp": "2025-11-23T08:26:09.624599Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769624,
+            "predictedBuy": 1683,
+            "predictedSell": 1693,
+            "confidence": 0.679,
+            "lowerBound": 1384,
+            "upperBound": 1982
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169624,
+            "predictedBuy": 1675,
+            "predictedSell": 1684,
+            "confidence": 0.645,
+            "lowerBound": 1350,
+            "upperBound": 1999
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569624,
+            "predictedBuy": 1664,
+            "predictedSell": 1674,
+            "confidence": 0.611,
+            "lowerBound": 1315,
+            "upperBound": 2013
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969624,
+            "predictedBuy": 1652,
+            "predictedSell": 1662,
+            "confidence": 0.577,
+            "lowerBound": 1279,
+            "upperBound": 2025
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369624,
+            "predictedBuy": 1638,
+            "predictedSell": 1647,
+            "confidence": 0.543,
+            "lowerBound": 1241,
+            "upperBound": 2034
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769624,
+            "predictedBuy": 1622,
+            "predictedSell": 1631,
+            "confidence": 0.509,
+            "lowerBound": 1203,
+            "upperBound": 2041
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169624,
+            "predictedBuy": 1604,
+            "predictedSell": 1614,
+            "confidence": 0.5,
+            "lowerBound": 1164,
+            "upperBound": 2044
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569624,
+            "predictedBuy": 1585,
+            "predictedSell": 1594,
+            "confidence": 0.5,
+            "lowerBound": 1124,
+            "upperBound": 2045
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969624,
+            "predictedBuy": 1564,
+            "predictedSell": 1573,
+            "confidence": 0.5,
+            "lowerBound": 1084,
+            "upperBound": 2044
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369624,
+            "predictedBuy": 1541,
+            "predictedSell": 1551,
+            "confidence": 0.5,
+            "lowerBound": 1044,
+            "upperBound": 2039
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769624,
+            "predictedBuy": 1517,
+            "predictedSell": 1526,
+            "confidence": 0.5,
+            "lowerBound": 1003,
+            "upperBound": 2032
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169624,
+            "predictedBuy": 1492,
+            "predictedSell": 1501,
+            "confidence": 0.5,
+            "lowerBound": 962,
+            "upperBound": 2022
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569624,
+            "predictedBuy": 1465,
+            "predictedSell": 1474,
+            "confidence": 0.5,
+            "lowerBound": 921,
+            "upperBound": 2009
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969624,
+            "predictedBuy": 1437,
+            "predictedSell": 1446,
+            "confidence": 0.5,
+            "lowerBound": 881,
+            "upperBound": 1994
+          }
+        ],
+        "confidenceScore": 0.725,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.624602Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "kwd",
+      "prediction": {
+        "currencyCode": "kwd",
+        "currencyName": "Kuwaiti Dinar",
+        "currentPrice": {
+          "buy": 365950,
+          "sell": 366480,
+          "timestamp": "2025-11-23T08:26:09.627039Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769626,
+            "predictedBuy": 364495,
+            "predictedSell": 365023,
+            "confidence": 0.695,
+            "lowerBound": 307915,
+            "upperBound": 421075
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169626,
+            "predictedBuy": 362608,
+            "predictedSell": 363133,
+            "confidence": 0.661,
+            "lowerBound": 301204,
+            "upperBound": 424012
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569626,
+            "predictedBuy": 360294,
+            "predictedSell": 360816,
+            "confidence": 0.626,
+            "lowerBound": 294198,
+            "upperBound": 426390
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969626,
+            "predictedBuy": 357561,
+            "predictedSell": 358079,
+            "confidence": 0.591,
+            "lowerBound": 286921,
+            "upperBound": 428202
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369626,
+            "predictedBuy": 354419,
+            "predictedSell": 354932,
+            "confidence": 0.556,
+            "lowerBound": 279398,
+            "upperBound": 429440
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769626,
+            "predictedBuy": 350878,
+            "predictedSell": 351386,
+            "confidence": 0.521,
+            "lowerBound": 271654,
+            "upperBound": 430101
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169627,
+            "predictedBuy": 346949,
+            "predictedSell": 347452,
+            "confidence": 0.5,
+            "lowerBound": 263717,
+            "upperBound": 430181
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569627,
+            "predictedBuy": 342647,
+            "predictedSell": 343143,
+            "confidence": 0.5,
+            "lowerBound": 255612,
+            "upperBound": 429682
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969627,
+            "predictedBuy": 337986,
+            "predictedSell": 338475,
+            "confidence": 0.5,
+            "lowerBound": 247365,
+            "upperBound": 428607
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369627,
+            "predictedBuy": 332981,
+            "predictedSell": 333463,
+            "confidence": 0.5,
+            "lowerBound": 239003,
+            "upperBound": 426959
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769627,
+            "predictedBuy": 327649,
+            "predictedSell": 328123,
+            "confidence": 0.5,
+            "lowerBound": 230552,
+            "upperBound": 424746
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169627,
+            "predictedBuy": 322008,
+            "predictedSell": 322474,
+            "confidence": 0.5,
+            "lowerBound": 222039,
+            "upperBound": 421977
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569627,
+            "predictedBuy": 316076,
+            "predictedSell": 316534,
+            "confidence": 0.5,
+            "lowerBound": 213488,
+            "upperBound": 418664
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969627,
+            "predictedBuy": 309873,
+            "predictedSell": 310322,
+            "confidence": 0.5,
+            "lowerBound": 204926,
+            "upperBound": 414820
+          }
+        ],
+        "confidenceScore": 0.734,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.627042Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "iqd",
+      "prediction": {
+        "currencyCode": "iqd",
+        "currencyName": "Iraqi Dinar",
+        "currentPrice": {
+          "buy": 85.9,
+          "sell": 86.03111111111112,
+          "timestamp": "2025-11-23T08:26:09.629485Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769629,
+            "predictedBuy": 85,
+            "predictedSell": 85,
+            "confidence": 0.696,
+            "lowerBound": 72,
+            "upperBound": 98
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169629,
+            "predictedBuy": 85,
+            "predictedSell": 85,
+            "confidence": 0.661,
+            "lowerBound": 70,
+            "upperBound": 99
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569629,
+            "predictedBuy": 84,
+            "predictedSell": 84,
+            "confidence": 0.627,
+            "lowerBound": 69,
+            "upperBound": 99
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969629,
+            "predictedBuy": 83,
+            "predictedSell": 84,
+            "confidence": 0.592,
+            "lowerBound": 67,
+            "upperBound": 100
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369629,
+            "predictedBuy": 83,
+            "predictedSell": 83,
+            "confidence": 0.557,
+            "lowerBound": 65,
+            "upperBound": 100
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769629,
+            "predictedBuy": 82,
+            "predictedSell": 82,
+            "confidence": 0.522,
+            "lowerBound": 63,
+            "upperBound": 100
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169629,
+            "predictedBuy": 81,
+            "predictedSell": 81,
+            "confidence": 0.5,
+            "lowerBound": 62,
+            "upperBound": 100
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569629,
+            "predictedBuy": 80,
+            "predictedSell": 80,
+            "confidence": 0.5,
+            "lowerBound": 60,
+            "upperBound": 100
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969629,
+            "predictedBuy": 79,
+            "predictedSell": 79,
+            "confidence": 0.5,
+            "lowerBound": 58,
+            "upperBound": 100
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369629,
+            "predictedBuy": 78,
+            "predictedSell": 78,
+            "confidence": 0.5,
+            "lowerBound": 56,
+            "upperBound": 100
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769629,
+            "predictedBuy": 77,
+            "predictedSell": 77,
+            "confidence": 0.5,
+            "lowerBound": 54,
+            "upperBound": 99
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169629,
+            "predictedBuy": 75,
+            "predictedSell": 75,
+            "confidence": 0.5,
+            "lowerBound": 52,
+            "upperBound": 99
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569629,
+            "predictedBuy": 74,
+            "predictedSell": 74,
+            "confidence": 0.5,
+            "lowerBound": 50,
+            "upperBound": 98
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969629,
+            "predictedBuy": 72,
+            "predictedSell": 72,
+            "confidence": 0.5,
+            "lowerBound": 48,
+            "upperBound": 97
+          }
+        ],
+        "confidenceScore": 0.734,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.629488Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "bhd",
+      "prediction": {
+        "currencyCode": "bhd",
+        "currencyName": "Bahraini Dinar",
+        "currentPrice": {
+          "buy": 298350,
+          "sell": 298960,
+          "timestamp": "2025-11-23T08:26:09.631925Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769631,
+            "predictedBuy": 297177,
+            "predictedSell": 297785,
+            "confidence": 0.696,
+            "lowerBound": 251455,
+            "upperBound": 342900
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169631,
+            "predictedBuy": 295656,
+            "predictedSell": 296261,
+            "confidence": 0.661,
+            "lowerBound": 246033,
+            "upperBound": 345280
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569631,
+            "predictedBuy": 293791,
+            "predictedSell": 294392,
+            "confidence": 0.627,
+            "lowerBound": 240371,
+            "upperBound": 347211
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969631,
+            "predictedBuy": 291589,
+            "predictedSell": 292185,
+            "confidence": 0.592,
+            "lowerBound": 234491,
+            "upperBound": 348687
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369631,
+            "predictedBuy": 289056,
+            "predictedSell": 289647,
+            "confidence": 0.557,
+            "lowerBound": 228411,
+            "upperBound": 349701
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769631,
+            "predictedBuy": 286201,
+            "predictedSell": 286786,
+            "confidence": 0.522,
+            "lowerBound": 222152,
+            "upperBound": 350250
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169631,
+            "predictedBuy": 283033,
+            "predictedSell": 283612,
+            "confidence": 0.5,
+            "lowerBound": 215734,
+            "upperBound": 350332
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569631,
+            "predictedBuy": 279564,
+            "predictedSell": 280136,
+            "confidence": 0.5,
+            "lowerBound": 209180,
+            "upperBound": 349949
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969631,
+            "predictedBuy": 275805,
+            "predictedSell": 276369,
+            "confidence": 0.5,
+            "lowerBound": 202509,
+            "upperBound": 349100
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369631,
+            "predictedBuy": 271768,
+            "predictedSell": 272324,
+            "confidence": 0.5,
+            "lowerBound": 195744,
+            "upperBound": 347792
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769631,
+            "predictedBuy": 267467,
+            "predictedSell": 268013,
+            "confidence": 0.5,
+            "lowerBound": 188905,
+            "upperBound": 346028
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169631,
+            "predictedBuy": 262915,
+            "predictedSell": 263452,
+            "confidence": 0.5,
+            "lowerBound": 182013,
+            "upperBound": 343817
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569631,
+            "predictedBuy": 258128,
+            "predictedSell": 258655,
+            "confidence": 0.5,
+            "lowerBound": 175088,
+            "upperBound": 341167
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969631,
+            "predictedBuy": 253120,
+            "predictedSell": 253638,
+            "confidence": 0.5,
+            "lowerBound": 168151,
+            "upperBound": 338089
+          }
+        ],
+        "confidenceScore": 0.734,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.631928Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "omr",
+      "prediction": {
+        "currencyCode": "omr",
+        "currencyName": "Omani Rial",
+        "currentPrice": {
+          "buy": 292400,
+          "sell": 292805,
+          "timestamp": "2025-11-23T08:26:09.634377Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769634,
+            "predictedBuy": 291249,
+            "predictedSell": 291652,
+            "confidence": 0.696,
+            "lowerBound": 246356,
+            "upperBound": 336142
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169634,
+            "predictedBuy": 289755,
+            "predictedSell": 290157,
+            "confidence": 0.661,
+            "lowerBound": 241032,
+            "upperBound": 338478
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569634,
+            "predictedBuy": 287924,
+            "predictedSell": 288323,
+            "confidence": 0.626,
+            "lowerBound": 235475,
+            "upperBound": 340374
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969634,
+            "predictedBuy": 285762,
+            "predictedSell": 286158,
+            "confidence": 0.592,
+            "lowerBound": 229702,
+            "upperBound": 341822
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369634,
+            "predictedBuy": 283275,
+            "predictedSell": 283667,
+            "confidence": 0.557,
+            "lowerBound": 223733,
+            "upperBound": 342817
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769634,
+            "predictedBuy": 280472,
+            "predictedSell": 280861,
+            "confidence": 0.522,
+            "lowerBound": 217589,
+            "upperBound": 343355
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169634,
+            "predictedBuy": 277363,
+            "predictedSell": 277747,
+            "confidence": 0.5,
+            "lowerBound": 211290,
+            "upperBound": 343435
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569634,
+            "predictedBuy": 273957,
+            "predictedSell": 274336,
+            "confidence": 0.5,
+            "lowerBound": 204857,
+            "upperBound": 343057
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969634,
+            "predictedBuy": 270266,
+            "predictedSell": 270641,
+            "confidence": 0.5,
+            "lowerBound": 198310,
+            "upperBound": 342223
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369634,
+            "predictedBuy": 266303,
+            "predictedSell": 266672,
+            "confidence": 0.5,
+            "lowerBound": 191671,
+            "upperBound": 340936
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769634,
+            "predictedBuy": 262081,
+            "predictedSell": 262444,
+            "confidence": 0.5,
+            "lowerBound": 184959,
+            "upperBound": 339203
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169634,
+            "predictedBuy": 257613,
+            "predictedSell": 257970,
+            "confidence": 0.5,
+            "lowerBound": 178196,
+            "upperBound": 337030
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569634,
+            "predictedBuy": 252914,
+            "predictedSell": 253264,
+            "confidence": 0.5,
+            "lowerBound": 171402,
+            "upperBound": 334426
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969634,
+            "predictedBuy": 247999,
+            "predictedSell": 248342,
+            "confidence": 0.5,
+            "lowerBound": 164596,
+            "upperBound": 331402
+          }
+        ],
+        "confidenceScore": 0.734,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.634380Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "qar",
+      "prediction": {
+        "currencyCode": "qar",
+        "currencyName": "Qatari Riyal",
+        "currentPrice": {
+          "buy": 30800,
+          "sell": 30915,
+          "timestamp": "2025-11-23T08:26:09.636843Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769636,
+            "predictedBuy": 30679,
+            "predictedSell": 30793,
+            "confidence": 0.696,
+            "lowerBound": 25949,
+            "upperBound": 35408
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169636,
+            "predictedBuy": 30522,
+            "predictedSell": 30636,
+            "confidence": 0.661,
+            "lowerBound": 25388,
+            "upperBound": 35655
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569636,
+            "predictedBuy": 30330,
+            "predictedSell": 30443,
+            "confidence": 0.626,
+            "lowerBound": 24803,
+            "upperBound": 35856
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969636,
+            "predictedBuy": 30102,
+            "predictedSell": 30215,
+            "confidence": 0.592,
+            "lowerBound": 24196,
+            "upperBound": 36009
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369636,
+            "predictedBuy": 29841,
+            "predictedSell": 29953,
+            "confidence": 0.557,
+            "lowerBound": 23568,
+            "upperBound": 36115
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769636,
+            "predictedBuy": 29547,
+            "predictedSell": 29657,
+            "confidence": 0.522,
+            "lowerBound": 22921,
+            "upperBound": 36173
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169636,
+            "predictedBuy": 29220,
+            "predictedSell": 29329,
+            "confidence": 0.5,
+            "lowerBound": 22258,
+            "upperBound": 36182
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569636,
+            "predictedBuy": 28863,
+            "predictedSell": 28970,
+            "confidence": 0.5,
+            "lowerBound": 21581,
+            "upperBound": 36144
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969636,
+            "predictedBuy": 28475,
+            "predictedSell": 28581,
+            "confidence": 0.5,
+            "lowerBound": 20892,
+            "upperBound": 36058
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369636,
+            "predictedBuy": 28059,
+            "predictedSell": 28163,
+            "confidence": 0.5,
+            "lowerBound": 20193,
+            "upperBound": 35924
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769636,
+            "predictedBuy": 27615,
+            "predictedSell": 27718,
+            "confidence": 0.5,
+            "lowerBound": 19487,
+            "upperBound": 35743
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169636,
+            "predictedBuy": 27146,
+            "predictedSell": 27247,
+            "confidence": 0.5,
+            "lowerBound": 18776,
+            "upperBound": 35516
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569636,
+            "predictedBuy": 26652,
+            "predictedSell": 26752,
+            "confidence": 0.5,
+            "lowerBound": 18061,
+            "upperBound": 35244
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969636,
+            "predictedBuy": 26136,
+            "predictedSell": 26233,
+            "confidence": 0.5,
+            "lowerBound": 17344,
+            "upperBound": 34927
+          }
+        ],
+        "confidenceScore": 0.734,
+        "trend": "BEARISH",
+        "generatedAt": "2025-11-23T08:26:09.636846Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "gram",
+      "prediction": {
+        "currencyCode": "gram",
+        "currencyName": "Gram",
+        "currentPrice": {
+          "buy": 0,
+          "sell": 11170000,
+          "timestamp": "2025-11-23T08:26:09.639282Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.81,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.769,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.729,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.688,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.648,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.607,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.567,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.526,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969639,
+            "predictedBuy": 0,
+            "predictedSell": 11170000,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "confidenceScore": 0.808,
+        "trend": "NEUTRAL",
+        "generatedAt": "2025-11-23T08:26:09.639284Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "mithqal",
+      "prediction": {
+        "currencyCode": "mithqal",
+        "currencyName": "Mithqal",
+        "currentPrice": {
+          "buy": 0,
+          "sell": 48384600,
+          "timestamp": "2025-11-23T08:26:09.641703Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.81,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.769,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.729,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.688,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.648,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.607,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.567,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.526,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969641,
+            "predictedBuy": 0,
+            "predictedSell": 48384600,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "confidenceScore": 0.808,
+        "trend": "NEUTRAL",
+        "generatedAt": "2025-11-23T08:26:09.641705Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "btc",
+      "prediction": {
+        "currencyCode": "btc",
+        "currencyName": "Bitcoin",
+        "currentPrice": {
+          "buy": 0,
+          "sell": 9695838610,
+          "timestamp": "2025-11-23T08:26:09.644110Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.81,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.769,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.729,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.688,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.648,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.607,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.567,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.526,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969644,
+            "predictedBuy": 0,
+            "predictedSell": 9695838610,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "confidenceScore": 0.808,
+        "trend": "NEUTRAL",
+        "generatedAt": "2025-11-23T08:26:09.644113Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "eth",
+      "prediction": {
+        "currencyCode": "eth",
+        "currencyName": "Ethereum",
+        "currentPrice": {
+          "buy": 0,
+          "sell": 316439180,
+          "timestamp": "2025-11-23T08:26:09.646578Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.81,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.769,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.729,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.688,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.648,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.607,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.567,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.526,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969646,
+            "predictedBuy": 0,
+            "predictedSell": 316439180,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "confidenceScore": 0.808,
+        "trend": "NEUTRAL",
+        "generatedAt": "2025-11-23T08:26:09.646581Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "xrp",
+      "prediction": {
+        "currencyCode": "xrp",
+        "currencyName": "Ripple",
+        "currentPrice": {
+          "buy": 0,
+          "sell": 224066,
+          "timestamp": "2025-11-23T08:26:09.649009Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.81,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.769,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.729,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.688,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.648,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.607,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.567,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.526,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569648,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969649,
+            "predictedBuy": 0,
+            "predictedSell": 224066,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "confidenceScore": 0.808,
+        "trend": "NEUTRAL",
+        "generatedAt": "2025-11-23T08:26:09.649011Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "bch",
+      "prediction": {
+        "currencyCode": "bch",
+        "currencyName": "Bitcoin Cash",
+        "currentPrice": {
+          "buy": 0,
+          "sell": 63270591,
+          "timestamp": "2025-11-23T08:26:09.651468Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.81,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.769,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.729,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.688,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.648,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.607,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.567,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.526,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969651,
+            "predictedBuy": 0,
+            "predictedSell": 63270591,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "confidenceScore": 0.808,
+        "trend": "NEUTRAL",
+        "generatedAt": "2025-11-23T08:26:09.651471Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "ltc",
+      "prediction": {
+        "currencyCode": "ltc",
+        "currencyName": "Litecoin",
+        "currentPrice": {
+          "buy": 0,
+          "sell": 9349978,
+          "timestamp": "2025-11-23T08:26:09.653879Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.81,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.769,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.729,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.688,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.648,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.607,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.567,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.526,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969653,
+            "predictedBuy": 0,
+            "predictedSell": 9349978,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "confidenceScore": 0.808,
+        "trend": "NEUTRAL",
+        "generatedAt": "2025-11-23T08:26:09.653881Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "bnb",
+      "prediction": {
+        "currencyCode": "bnb",
+        "currencyName": "Binance",
+        "currentPrice": {
+          "buy": 0,
+          "sell": 95102144,
+          "timestamp": "2025-11-23T08:26:09.658631Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.81,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.769,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.729,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.688,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.648,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.607,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.567,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.526,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969658,
+            "predictedBuy": 0,
+            "predictedSell": 95102144,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "confidenceScore": 0.808,
+        "trend": "NEUTRAL",
+        "generatedAt": "2025-11-23T08:26:09.658634Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "usdt",
+      "prediction": {
+        "currencyCode": "usdt",
+        "currencyName": "Tether USDT",
+        "currentPrice": {
+          "buy": 0,
+          "sell": 113988,
+          "timestamp": "2025-11-23T08:26:09.661054Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769660,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.81,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169660,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.769,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569660,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.729,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.688,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.648,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.607,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.567,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.526,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969661,
+            "predictedBuy": 0,
+            "predictedSell": 113988,
+            "confidence": 0.5,
+            "lowerBound": 0,
+            "upperBound": 0
+          }
+        ],
+        "confidenceScore": 0.808,
+        "trend": "NEUTRAL",
+        "generatedAt": "2025-11-23T08:26:09.661057Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "azadi",
+      "prediction": {
+        "currencyCode": "azadi",
+        "currencyName": "Azadi",
+        "currentPrice": {
+          "buy": 109200000,
+          "sell": 110580000,
+          "timestamp": "2025-11-23T08:26:09.663551Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769663,
+            "predictedBuy": 108526038,
+            "predictedSell": 109897520,
+            "confidence": 0.611,
+            "lowerBound": 79253455,
+            "upperBound": 137798621
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169663,
+            "predictedBuy": 107652383,
+            "predictedSell": 109012825,
+            "confidence": 0.58,
+            "lowerBound": 75975728,
+            "upperBound": 139329037
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569663,
+            "predictedBuy": 106583514,
+            "predictedSell": 107930448,
+            "confidence": 0.55,
+            "lowerBound": 72607862,
+            "upperBound": 140559166
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969663,
+            "predictedBuy": 105324982,
+            "predictedSell": 106656012,
+            "confidence": 0.519,
+            "lowerBound": 69167861,
+            "upperBound": 141482103
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369663,
+            "predictedBuy": 103883362,
+            "predictedSell": 105196174,
+            "confidence": 0.5,
+            "lowerBound": 65673835,
+            "upperBound": 142092890
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769663,
+            "predictedBuy": 102266200,
+            "predictedSell": 103558575,
+            "confidence": 0.5,
+            "lowerBound": 62143836,
+            "upperBound": 142388565
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169663,
+            "predictedBuy": 100481940,
+            "predictedSell": 101751767,
+            "confidence": 0.5,
+            "lowerBound": 58595703,
+            "upperBound": 142368178
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569663,
+            "predictedBuy": 98539856,
+            "predictedSell": 99785140,
+            "confidence": 0.5,
+            "lowerBound": 55046908,
+            "upperBound": 142032804
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969663,
+            "predictedBuy": 96449969,
+            "predictedSell": 97668842,
+            "confidence": 0.5,
+            "lowerBound": 51514414,
+            "upperBound": 141385523
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369663,
+            "predictedBuy": 94222959,
+            "predictedSell": 95413688,
+            "confidence": 0.5,
+            "lowerBound": 48014536,
+            "upperBound": 140431382
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769663,
+            "predictedBuy": 91870077,
+            "predictedSell": 93031072,
+            "confidence": 0.5,
+            "lowerBound": 44562817,
+            "upperBound": 139177336
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169663,
+            "predictedBuy": 89403048,
+            "predictedSell": 90532866,
+            "confidence": 0.5,
+            "lowerBound": 41173919,
+            "upperBound": 137632177
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569663,
+            "predictedBuy": 86833971,
+            "predictedSell": 87931323,
+            "confidence": 0.5,
+            "lowerBound": 37861512,
+            "upperBound": 135806430
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969663,
+            "predictedBuy": 84175223,
+            "predictedSell": 85238976,
+            "confidence": 0.5,
+            "lowerBound": 34638197,
+            "upperBound": 133712250
+          }
+        ],
+        "confidenceScore": 0.689,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.663554Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "emami",
+      "prediction": {
+        "currencyCode": "emami",
+        "currencyName": "Emami",
+        "currentPrice": {
+          "buy": 116000000,
+          "sell": 116600000,
+          "timestamp": "2025-11-23T08:26:09.666003Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769665,
+            "predictedBuy": 115240894,
+            "predictedSell": 115836967,
+            "confidence": 0.61,
+            "lowerBound": 83984719,
+            "upperBound": 146497069
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169665,
+            "predictedBuy": 114257037,
+            "predictedSell": 114848022,
+            "confidence": 0.579,
+            "lowerBound": 80450497,
+            "upperBound": 148063577
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569665,
+            "predictedBuy": 113053776,
+            "predictedSell": 113638537,
+            "confidence": 0.549,
+            "lowerBound": 76815716,
+            "upperBound": 149291837
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969665,
+            "predictedBuy": 111637737,
+            "predictedSell": 112215174,
+            "confidence": 0.518,
+            "lowerBound": 73100943,
+            "upperBound": 150174532
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369665,
+            "predictedBuy": 110016762,
+            "predictedSell": 110585814,
+            "confidence": 0.5,
+            "lowerBound": 69326860,
+            "upperBound": 150706663
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769665,
+            "predictedBuy": 108199836,
+            "predictedSell": 108759490,
+            "confidence": 0.5,
+            "lowerBound": 65514067,
+            "upperBound": 150885605
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169665,
+            "predictedBuy": 106197008,
+            "predictedSell": 106746303,
+            "confidence": 0.5,
+            "lowerBound": 61682895,
+            "upperBound": 150711121
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569665,
+            "predictedBuy": 104019294,
+            "predictedSell": 104557325,
+            "confidence": 0.5,
+            "lowerBound": 57853221,
+            "upperBound": 150185367
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969665,
+            "predictedBuy": 101678578,
+            "predictedSell": 102204501,
+            "confidence": 0.5,
+            "lowerBound": 54044300,
+            "upperBound": 149312856
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369665,
+            "predictedBuy": 99187500,
+            "predictedSell": 99700539,
+            "confidence": 0.5,
+            "lowerBound": 50274594,
+            "upperBound": 148100406
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769665,
+            "predictedBuy": 96559347,
+            "predictedSell": 97058792,
+            "confidence": 0.5,
+            "lowerBound": 46561634,
+            "upperBound": 146557060
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169665,
+            "predictedBuy": 93807929,
+            "predictedSell": 94293142,
+            "confidence": 0.5,
+            "lowerBound": 42921877,
+            "upperBound": 144693980
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569665,
+            "predictedBuy": 90947458,
+            "predictedSell": 91417876,
+            "confidence": 0.5,
+            "lowerBound": 39370595,
+            "upperBound": 142524321
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969665,
+            "predictedBuy": 87992429,
+            "predictedSell": 88447562,
+            "confidence": 0.5,
+            "lowerBound": 35921770,
+            "upperBound": 140063088
+          }
+        ],
+        "confidenceScore": 0.688,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.666005Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "half",
+      "prediction": {
+        "currencyCode": "half",
+        "currencyName": "1/2 Azadi",
+        "currentPrice": {
+          "buy": 59700000,
+          "sell": 60340000,
+          "timestamp": "2025-11-23T08:26:09.668502Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769668,
+            "predictedBuy": 59281342,
+            "predictedSell": 59916854,
+            "confidence": 0.616,
+            "lowerBound": 43685767,
+            "upperBound": 74876916
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169668,
+            "predictedBuy": 58738848,
+            "predictedSell": 59368545,
+            "confidence": 0.585,
+            "lowerBound": 41881186,
+            "upperBound": 75596510
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569668,
+            "predictedBuy": 58075679,
+            "predictedSell": 58698266,
+            "confidence": 0.554,
+            "lowerBound": 40019397,
+            "upperBound": 76131960
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969668,
+            "predictedBuy": 57295745,
+            "predictedSell": 57909971,
+            "confidence": 0.524,
+            "lowerBound": 38111661,
+            "upperBound": 76479830
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369668,
+            "predictedBuy": 56403674,
+            "predictedSell": 57008336,
+            "confidence": 0.5,
+            "lowerBound": 36169321,
+            "upperBound": 76638027
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769668,
+            "predictedBuy": 55404759,
+            "predictedSell": 55998713,
+            "confidence": 0.5,
+            "lowerBound": 34203692,
+            "upperBound": 76605826
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169668,
+            "predictedBuy": 54304910,
+            "predictedSell": 54887073,
+            "confidence": 0.5,
+            "lowerBound": 32225946,
+            "upperBound": 76383874
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569668,
+            "predictedBuy": 53110596,
+            "predictedSell": 53679955,
+            "confidence": 0.5,
+            "lowerBound": 30247010,
+            "upperBound": 75974181
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969668,
+            "predictedBuy": 51828776,
+            "predictedSell": 52384394,
+            "confidence": 0.5,
+            "lowerBound": 28277458,
+            "upperBound": 75380094
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369668,
+            "predictedBuy": 50466837,
+            "predictedSell": 51007855,
+            "confidence": 0.5,
+            "lowerBound": 26327422,
+            "upperBound": 74606253
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769668,
+            "predictedBuy": 49032521,
+            "predictedSell": 49558162,
+            "confidence": 0.5,
+            "lowerBound": 24406503,
+            "upperBound": 73658538
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169668,
+            "predictedBuy": 47533847,
+            "predictedSell": 48043422,
+            "confidence": 0.5,
+            "lowerBound": 22523696,
+            "upperBound": 72543998
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569668,
+            "predictedBuy": 45979042,
+            "predictedSell": 46471949,
+            "confidence": 0.5,
+            "lowerBound": 20687318,
+            "upperBound": 71270765
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969668,
+            "predictedBuy": 44376460,
+            "predictedSell": 44852188,
+            "confidence": 0.5,
+            "lowerBound": 18904958,
+            "upperBound": 69847963
+          }
+        ],
+        "confidenceScore": 0.694,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.668504Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "quarter",
+      "prediction": {
+        "currencyCode": "quarter",
+        "currencyName": "1/4 Azadi",
+        "currentPrice": {
+          "buy": 33700000,
+          "sell": 34340000,
+          "timestamp": "2025-11-23T08:26:09.670993Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769670,
+            "predictedBuy": 33487658,
+            "predictedSell": 34123626,
+            "confidence": 0.62,
+            "lowerBound": 24844357,
+            "upperBound": 42130959
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169670,
+            "predictedBuy": 33212417,
+            "predictedSell": 33843158,
+            "confidence": 0.589,
+            "lowerBound": 23860861,
+            "upperBound": 42563974
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569670,
+            "predictedBuy": 32875717,
+            "predictedSell": 33500063,
+            "confidence": 0.558,
+            "lowerBound": 22847569,
+            "upperBound": 42903866
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969670,
+            "predictedBuy": 32479343,
+            "predictedSell": 33096162,
+            "confidence": 0.527,
+            "lowerBound": 21810006,
+            "upperBound": 43148680
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369670,
+            "predictedBuy": 32025409,
+            "predictedSell": 32633607,
+            "confidence": 0.5,
+            "lowerBound": 20753743,
+            "upperBound": 43297075
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769670,
+            "predictedBuy": 31516340,
+            "predictedSell": 32114870,
+            "confidence": 0.5,
+            "lowerBound": 19684346,
+            "upperBound": 43348334
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169670,
+            "predictedBuy": 30954848,
+            "predictedSell": 31542715,
+            "confidence": 0.5,
+            "lowerBound": 18607327,
+            "upperBound": 43302369
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569670,
+            "predictedBuy": 30343911,
+            "predictedSell": 30920175,
+            "confidence": 0.5,
+            "lowerBound": 17528096,
+            "upperBound": 43159726
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969670,
+            "predictedBuy": 29686744,
+            "predictedSell": 30250528,
+            "confidence": 0.5,
+            "lowerBound": 16451915,
+            "upperBound": 42921573
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369670,
+            "predictedBuy": 28986773,
+            "predictedSell": 29537263,
+            "confidence": 0.5,
+            "lowerBound": 15383856,
+            "upperBound": 42589689
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769670,
+            "predictedBuy": 28247601,
+            "predictedSell": 28784054,
+            "confidence": 0.5,
+            "lowerBound": 14328761,
+            "upperBound": 42166441
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169670,
+            "predictedBuy": 27472982,
+            "predictedSell": 27994724,
+            "confidence": 0.5,
+            "lowerBound": 13291205,
+            "upperBound": 41654759
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569670,
+            "predictedBuy": 26666786,
+            "predictedSell": 27173218,
+            "confidence": 0.5,
+            "lowerBound": 12275465,
+            "upperBound": 41058108
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969670,
+            "predictedBuy": 25832968,
+            "predictedSell": 26323564,
+            "confidence": 0.5,
+            "lowerBound": 11285490,
+            "upperBound": 40380446
+          }
+        ],
+        "confidenceScore": 0.696,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.670996Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    },
+    {
+      "currencyCode": "gerami",
+      "prediction": {
+        "currencyCode": "gerami",
+        "currencyName": "Gerami",
+        "currentPrice": {
+          "buy": 16500000,
+          "sell": 16880000,
+          "timestamp": "2025-11-23T08:26:09.673453Z"
+        },
+        "predictions": [
+          {
+            "date": "2025-11-24",
+            "timestamp": 1763972769673,
+            "predictedBuy": 16381022,
+            "predictedSell": 16758282,
+            "confidence": 0.622,
+            "lowerBound": 12202496,
+            "upperBound": 20559547
+          },
+          {
+            "date": "2025-11-25",
+            "timestamp": 1764059169673,
+            "predictedBuy": 16226866,
+            "predictedSell": 16600576,
+            "confidence": 0.591,
+            "lowerBound": 11711372,
+            "upperBound": 20742360
+          },
+          {
+            "date": "2025-11-26",
+            "timestamp": 1764145569673,
+            "predictedBuy": 16038455,
+            "predictedSell": 16407825,
+            "confidence": 0.56,
+            "lowerBound": 11203468,
+            "upperBound": 20873441
+          },
+          {
+            "date": "2025-11-27",
+            "timestamp": 1764231969673,
+            "predictedBuy": 15816931,
+            "predictedSell": 16181199,
+            "confidence": 0.529,
+            "lowerBound": 10681940,
+            "upperBound": 20951921
+          },
+          {
+            "date": "2025-11-28",
+            "timestamp": 1764318369673,
+            "predictedBuy": 15563645,
+            "predictedSell": 15922080,
+            "confidence": 0.5,
+            "lowerBound": 10149973,
+            "upperBound": 20977317
+          },
+          {
+            "date": "2025-11-29",
+            "timestamp": 1764404769673,
+            "predictedBuy": 15280142,
+            "predictedSell": 15632049,
+            "confidence": 0.5,
+            "lowerBound": 9610747,
+            "upperBound": 20949538
+          },
+          {
+            "date": "2025-11-30",
+            "timestamp": 1764491169673,
+            "predictedBuy": 14968147,
+            "predictedSell": 15312868,
+            "confidence": 0.5,
+            "lowerBound": 9067409,
+            "upperBound": 20868884
+          },
+          {
+            "date": "2025-12-01",
+            "timestamp": 1764577569673,
+            "predictedBuy": 14629542,
+            "predictedSell": 14966465,
+            "confidence": 0.5,
+            "lowerBound": 8523038,
+            "upperBound": 20736046
+          },
+          {
+            "date": "2025-12-02",
+            "timestamp": 1764663969673,
+            "predictedBuy": 14266355,
+            "predictedSell": 14594914,
+            "confidence": 0.5,
+            "lowerBound": 7980621,
+            "upperBound": 20552089
+          },
+          {
+            "date": "2025-12-03",
+            "timestamp": 1764750369673,
+            "predictedBuy": 13880734,
+            "predictedSell": 14200411,
+            "confidence": 0.5,
+            "lowerBound": 7443018,
+            "upperBound": 20318450
+          },
+          {
+            "date": "2025-12-04",
+            "timestamp": 1764836769673,
+            "predictedBuy": 13474927,
+            "predictedSell": 13785258,
+            "confidence": 0.5,
+            "lowerBound": 6912944,
+            "upperBound": 20036909
+          },
+          {
+            "date": "2025-12-05",
+            "timestamp": 1764923169673,
+            "predictedBuy": 13051260,
+            "predictedSell": 13351834,
+            "confidence": 0.5,
+            "lowerBound": 6392942,
+            "upperBound": 19709577
+          },
+          {
+            "date": "2025-12-06",
+            "timestamp": 1765009569673,
+            "predictedBuy": 12612116,
+            "predictedSell": 12902577,
+            "confidence": 0.5,
+            "lowerBound": 5885368,
+            "upperBound": 19338864
+          },
+          {
+            "date": "2025-12-07",
+            "timestamp": 1765095969673,
+            "predictedBuy": 12159911,
+            "predictedSell": 12439957,
+            "confidence": 0.5,
+            "lowerBound": 5392368,
+            "upperBound": 18927453
+          }
+        ],
+        "confidenceScore": 0.697,
+        "trend": "VOLATILE",
+        "generatedAt": "2025-11-23T08:26:09.673456Z",
+        "modelVersion": "v1.0-exponential-smoothing"
+      }
+    }
+  ]
+}
