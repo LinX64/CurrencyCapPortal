@@ -7,7 +7,7 @@ auth and Railway deployment were removed on 2026-10-14; git history keeps them.
 
 ```
 tools/gheymat_snapshot.py      bonbast protocol → dist/v1/latest, dist/v1/instruments, dist/health,
-                               dist/v1/history/<code> (hourly), dist/v1/intraday/<code> (7-day ring of 6-minute samples), dist/index.html
+                               dist/v1/daily.json + dist/v1/history/<code> (archive backfill, hourly), dist/v1/longhistory/<code>, dist/v1/intraday/<code>, dist/index.html
 tools/instruments.json         37 instruments (copied from Gheymat/server/gheymat_server/instruments.json)
 .github/workflows/gheymat-latest.yml   cron */6, publishes dist/ to gh-pages (Pages source = branch)
 archive/                       historical series kept as seed data (all.json back to 1978, 1y.json)
