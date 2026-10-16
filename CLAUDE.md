@@ -8,8 +8,16 @@ auth and Railway deployment were removed on 2026-10-14; git history keeps them.
 ```
 tools/gheymat_snapshot.py      bonbast protocol → dist/v1/latest, dist/v1/instruments, dist/health,
                                dist/v1/daily.json + dist/v1/history/<code> (archive backfill, 12 days every run), dist/v1/longhistory/<code>, dist/v1/intraday/<code>, dist/index.html
-tools/instruments.json         37 instruments (copied from Gheymat/server/gheymat_server/instruments.json)
-.github/workflows/gheymat-latest.yml   cron */6, publishes dist/ to gh-pages (Pages source = branch)
+tools/instruments.json         45 instruments: 37 direct (copied from Gheymat/server/gheymat_server/instruments.json)
+                               + 8 computed cross-rate currencies (`computed: true`), same 8 rows as that
+                               file's own computed entries. The exact formula, pivot-integrity check and
+                               failure handling are specified once, authoritatively, in Gheymat's
+                               `CONTRACT.md` ("Computed cross-rates") - this repo's `fetch_converter` /
+                               `compute_cross_rates` / `fetch_computed_rates` in gheymat_snapshot.py
+                               implement that spec as a stateless-per-run adaptation (no persisted
+                               converter-table cache, unlike the server's `ConverterStore`).
+.github/workflows/gheymat-latest.yml   hourly cron backstop (`17 * * * *`) that loops internally, publishing
+                               dist/ to gh-pages every ~6 minutes for ~5.5 hours per run
 archive/                       historical series kept as seed data (all.json back to 1978, 1y.json)
 tests/                         pytest for the script (no network)
 ```
