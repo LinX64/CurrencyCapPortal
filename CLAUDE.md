@@ -1,16 +1,22 @@
 # CurrencyCapPortal — static price fallback for Gheymat
 
-This repo is now a single script plus a GitHub Actions workflow. It fetches bonbast.com every six minutes
-and publishes a static JSON API on GitHub Pages that the Gheymat iOS app can poll when the real server
-(`/Users/mohsen/StudioProjects/Gheymat/server`) is not deployed. The old Flask API, ML predictions,
-auth and Railway deployment were removed on 2026-10-14; git history keeps them.
+This repo is a single script plus a GitHub Actions workflow, and it is the Gheymat app's only data path: every
+six minutes it fetches its sources, combines them, and publishes a sealed static JSON API on GitHub Pages that
+the app polls. The old Flask API, ML predictions, auth and Railway deployment were removed on 2026-10-14; git
+history keeps them.
+
+Sources (Gheymat `CONTRACT.md` "Static publisher sources", the authority): `GHEYMAT_SOURCES` (default
+`hansha,bonbast`) is a priority list; every source is fetched, each code takes the first source's valid value,
+a failed or stale (>30 min) source is skipped, and `fetchedAt` is the oldest observation used so the app's
+freshness pill stays honest. hansha has no `ounce` and prices `btc` in toman, so those two always come from
+bonbast; history, long history and the computed cross-rates stay bonbast/archive only.
 
 ```
-tools/gheymat_snapshot.py      bonbast protocol → dist/v1/latest, dist/v1/instruments, dist/health,
+tools/gheymat_snapshot.py      sources → dist/v1/latest, dist/v1/instruments, dist/health,
                                dist/v1/daily.json + dist/v1/history/<code> (archive backfill, 12 days every run), dist/v1/longhistory/<code>, dist/v1/intraday/<code>, dist/index.html
-tools/instruments.json         45 instruments: 37 direct (copied from Gheymat/server/gheymat_server/instruments.json)
-                               + 8 computed cross-rate currencies (`computed: true`), same 8 rows as that
-                               file's own computed entries. The exact formula, pivot-integrity check and
+tools/instruments.json         51 instruments, the source of truth for the static channel: 37 direct (bonbast key
+                               set) + 6 hansha-only toman crypto rows (`bonbast_key: null`)
+                               + 8 computed cross-rate currencies (`computed: true`). The exact formula, pivot-integrity check and
                                failure handling are specified once, authoritatively, in Gheymat's
                                `CONTRACT.md` ("Computed cross-rates") - this repo's `fetch_converter` /
                                `compute_cross_rates` / `fetch_computed_rates` in gheymat_snapshot.py
